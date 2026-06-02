@@ -1,0 +1,20 @@
+{
+    "nombre": "Semillas de Trigo",
+    "descripcion": "Mediciones geométricas de granos de trigo pertenecientes a tres variedades distintas (Kama, Rosa y Canadian) obtenidas mediante rayos X.",
+    "autor": "M. Charytanowicz, J. Niewczas, P. Kulczycki, et al.",
+    "url": "https://archive.ics.uci.edu/ml/datasets/seeds",
+    "muestras": 210,
+    "clases": 3,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "Area": "Área de la sección transversal del grano (mm²)",
+        "Perimetro": "Perímetro del grano (mm)",
+        "Compacidad": "Medida de compacidad calculada como `(perímetro²) / área - 1.0`.",
+        "LongNucleo": "Longitud del núcleo del grano (mm)",
+        "AnchoNucleo": "Ancho del núcleo del grano (mm)",
+        "Asimetria": "Coeficiente de asimetría del grano",
+        "LongSurco": "Longitud del surco del grano (mm)",
+        "Clase": "Variedad de trigo a la que pertenece el grano."
+    }
+}

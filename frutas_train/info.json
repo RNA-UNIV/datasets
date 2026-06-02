@@ -1,0 +1,15 @@
+{
+    "nombre": "Clasificación de Frutas (Entrenamiento)",
+    "descripcion": "Conjunto de entrenamiento sintético para clasificar frutas (naranja o melón) basado en diámetro y color.",
+    "autor": "Universidad Nacional de La Plata",
+    "url": "https://github.com/aap-unlp/datasets/tree/main/frutas",
+    "muestras": 16,
+    "clases": 2,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "Diametro": "Diámetro de la fruta en centímetros (variable continua).",
+        "Color": "Valor numérico que representa el tono de color de la fruta en escala de 0-255 (variable continua).",
+        "Clase": "Tipo de fruta según sus características físicas."
+    }
+}

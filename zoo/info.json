@@ -1,0 +1,30 @@
+{
+    "nombre": "Zoológico",
+    "descripcion": "Clasificación taxonómica de animales basada en características morfológicas, fisiológicas y comportamentales.",
+    "autor": "Richard S. Forsyth",
+    "url": "https://archive.ics.uci.edu/dataset/111/zoo",
+    "muestras": 101,
+    "clases": 7,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "animal": "Nombre común del animal en español (texto). Este campo es un identificador único para cada instancia y no debe utilizarse como característica predictora en modelos de clasificación.",
+        "Tiene_Pelo": "Indica si el animal posee pelo o pelaje (1 = Sí, 0 = No)",
+        "Tiene_Plumas": "Indica si el animal posee plumas (1 = Sí, 0 = No)",
+        "Nace_de_huevo": "Indica si el animal es ovíparo (1 = Sí, 0 = No)",
+        "Toma_Leche": "Indica si el animal es mamífero y amamanta crías (1 = Sí, 0 = No)",
+        "Vuela": "Indica si el animal es capaz de volar (1 = Sí, 0 = No)",
+        "Acuatico": "Indica si el animal vive en ambientes acuáticos (1 = Sí, 0 = No)",
+        "Depredador": "Indica si el animal es carnívoro o cazador (1 = Sí, 0 = No)",
+        "Dentado": "Indica si el animal posee dientes (1 = Sí, 0 = No)",
+        "Vertebrado": "Indica si el animal posee columna vertebral (1 = Sí, 0 = No)",
+        "Respira": "Indica si el animal respira aire (pulmones) (1 = Sí, 0 = No)",
+        "Venenoso": "Indica si el animal es venenoso o ponzoñoso (1 = Sí, 0 = No)",
+        "Tiene_Aletas": "Indica si el animal posee aletas (1 = Sí, 0 = No)",
+        "Cant_Patas": "Número de patas del animal (valores: 0, 2, 4, 5, 6, 8)",
+        "Tiene_Cola": "Indica si el animal posee cola visible (1 = Sí, 0 = No)",
+        "Domestico": "Indica si el animal es comúnmente domesticado (1 = Sí, 0 = No)",
+        "Tamano_Gato": "Indica si el animal es aproximadamente del tamaño de un gato doméstico o más pequeño (1 = Sí, 0 = No)",
+        "Clase": "Categoría taxonómica del animal. El dataset clasifica los animales en 7 tipos principales:"
+    }
+}

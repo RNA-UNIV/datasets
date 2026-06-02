@@ -1,0 +1,13 @@
+{
+    "nombre": "Especies de Halcones",
+    "descripcion": "Medidas morfológicas de tres especies de halcones (cola roja, alas anchas y cola lineada) registradas en estudios de campo.",
+    "autor": "Mathsian",
+    "url": "https://www.kaggle.com/datasets/mathsian/three-hawk-species",
+    "muestras": 893,
+    "clases": 0,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "A�o;Especie;Ala;Peso;Cola;Hallux": "Atributo A�o;Especie;Ala;Peso;Cola;Hallux"
+    }
+}

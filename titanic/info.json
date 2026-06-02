@@ -1,0 +1,24 @@
+{
+    "nombre": "Supervivencia del Titanic",
+    "descripcion": "Datos históricos de pasajeros del RMS Titanic para predecir la supervivencia basada en variables demográficas y de viaje.",
+    "autor": "Curado por DataScience Dojo",
+    "url": "https://github.com/datasciencedojo/datasets",
+    "muestras": 891,
+    "clases": 2,
+    "faltantes": "Si",
+    "tipo": "tabular",
+    "atributos": {
+        "PassengerId": "Identificador único para cada pasajero. Variable administrativa sin valor predictivo.",
+        "Survived": "Indicador binario que registra el destino final del pasajero",
+        "Pclass": "Representa el nivel socioeconómico del pasajero a través de la clase del ticket",
+        "Name": "Nombre completo del pasajero, incluyendo título de cortesía (Mr, Mrs, Dr, etc.), que puede inferir edad, estado civil y estatus social.",
+        "Sex": "Género biológico del pasajero",
+        "Age": "Edad del pasajero en años. Los menores de 1 año están representados con fracciones (ej: 0.75 = 9 meses). Presenta valores nulos que requieren imputación.",
+        "SibSp": "Número de hermanos o cónyuges abordo del Titanic. Incluye:",
+        "Parch": "Número de padres o hijos abordo. Incluye:",
+        "Ticket": "Identificador alfanumérico del ticket. Presenta patrones complejos con valor predictivo limitado.",
+        "Fare": "Precio pagado por el ticket en libras esterlinas (£). Refleja la combinación de clase y comodidades.",
+        "Cabin": "Número de cabina asignado. Alto porcentaje de valores nulos (77.1%), pero puede indicar ubicación en el barco y estatus.",
+        "Embarked": "Puerto inicial donde el pasajero abordó el Titanic"
+    }
+}

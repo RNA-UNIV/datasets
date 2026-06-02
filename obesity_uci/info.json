@@ -1,0 +1,29 @@
+{
+    "nombre": "Niveles de Obesidad",
+    "descripcion": "Estimación de niveles de obesidad basados en hábitos alimentarios y condición física de personas de México, Perú y Colombia.",
+    "autor": "Fabio Mendoza Palechor & Alexis De la Hoz Manotas",
+    "url": "https://archive.ics.uci.edu/ml/datasets/Estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition",
+    "muestras": 2111,
+    "clases": 7,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "Gender": "Género (Male, Female)",
+        "Age": "Edad en años",
+        "Height": "Altura en metros",
+        "Weight": "Peso en kilogramos",
+        "family_history_with_overweight": "Antecedentes familiares de sobrepeso (yes, no)",
+        "FAVC": "Frecuencia de consumo de alimentos calóricos (yes, no)",
+        "FCVC": "Frecuencia de consumo de verduras (1, 2, 3)",
+        "NCP": "Número de comidas principales al día",
+        "CAEC": "Consumo de alimentos entre comidas (Never, Sometimes, Frequently, Always)",
+        "SMOKE": "Si el paciente fuma (yes, no)",
+        "CH2O": "Consumo de agua diario",
+        "SCC": "Monitoreo del consumo calórico (yes, no)",
+        "FAF": "Frecuencia de actividad física (días por semana)",
+        "TUE": "Tiempo de uso de dispositivos electrónicos (horas diarias)",
+        "CALC": "Consumo de alcohol (no, Sometimes, Frequently, Always)",
+        "MTRANS": "Medio de transporte utilizado",
+        "NObesity": "Clasificación de nivel de obesidad"
+    }
+}

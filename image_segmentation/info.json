@@ -1,0 +1,31 @@
+{
+    "nombre": "Segmentación de Imágenes",
+    "descripcion": "Instancias de regiones de 3x3 píxeles extraídas de imágenes para clasificar tipos de superficies terrestres.",
+    "autor": "Vision Group, University of Massachusetts",
+    "url": "https://archive.ics.uci.edu/ml/datasets/Image+Segmentation",
+    "muestras": 2310,
+    "clases": 7,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "REGION-CENTROID-COL": "Columna del pixel central de la región",
+        "REGION-CENTROID-ROW": "Fila del pixel central de la región",
+        "REGION-PIXEL-COUNT": "Número de píxeles en la región (siempre 9)",
+        "SHORT-LINE-DENSITY-5": "Densidad de líneas cortas de bajo contraste",
+        "SHORT-LINE-DENSITY-2": "Densidad de líneas cortas de alto contraste",
+        "VEDGE-MEAN": "Promedio de contraste vertical",
+        "VEDGE-SD": "Atributo VEDGE-SD",
+        "HEDGE-MEAN": "Promedio de contraste horizontal",
+        "HEDGE-SD": "Desviación estándar del contraste horizontal",
+        "INTENSITY-MEAN": "Intensidad promedio (R+G+B)/3",
+        "RAWRED-MEAN": "Promedio del canal rojo",
+        "RAWBLUE-MEAN": "Promedio del canal azul",
+        "RAWGREEN-MEAN": "Promedio del canal verde",
+        "EXRED-MEAN": "Exceso de rojo (2R - (G+B))",
+        "EXBLUE-MEAN": "Exceso de azul (2B - (G+R))",
+        "EXGREEN-MEAN": "Exceso de verde (2G - (R+B))",
+        "VALUE-MEAN": "Componente de valor de color en espacio HSV",
+        "SATURATION-MEAN": "Saturación promedio en espacio HSV",
+        "HUE-MEAN": "Tono promedio en espacio HSV"
+    }
+}

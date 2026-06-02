@@ -1,0 +1,24 @@
+{
+    "nombre": "Automóviles Simplificado",
+    "descripcion": "Versión simplificada del dataset clásico de automóviles adaptada con fines educativos.",
+    "autor": "Universidad Nacional de La Plata",
+    "url": "https://github.com/aap-unlp/datasets/tree/main/automobile",
+    "muestras": 205,
+    "clases": 186,
+    "faltantes": "Si",
+    "tipo": "tabular",
+    "atributos": {
+        "make": "Fabricante del automóvil.",
+        "fuel-type": "Tipo de combustible utilizado.",
+        "num-of-doors": "- `two`: Dos puertas",
+        "body-style": "- `sedan`, `hatchback`, `wagon`, `convertible`, `hardtop`",
+        "curb-weight": "Peso del vehículo sin carga (libras).",
+        "engine-size": "Desplazamiento del motor (pulgadas cúbicas).",
+        "horsepower": "Caballos de fuerza del motor.",
+        "city-mpg": "Millas por galón en ciudad.",
+        "highway-mpg": "Millas por galón en autopista.",
+        "price": "Valor continuo que representa el precio de venta del vehículo en dólares.",
+        "volume": "Atributo derivado que representa el volumen aproximado del vehículo, calculado a partir de dimensiones físicas.",
+        "eco-rating": "Puntuación compuesta que integra:"
+    }
+}

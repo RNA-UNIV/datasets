@@ -1,0 +1,19 @@
+{
+    "nombre": "Clasificación de Fármacos (Entrenamiento)",
+    "descripcion": "Conjunto de entrenamiento (training set) para el dataset de clasificación de fármacos.",
+    "autor": "Pratham Tripathi",
+    "url": "https://www.kaggle.com/datasets/prathamtripathi/drug-classification",
+    "muestras": 160,
+    "clases": 5,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "Age": "Edad del paciente al momento de la evaluación (en años).",
+        "Sex": "Sexo del paciente.",
+        "BP": "Nivel de presión arterial del paciente.",
+        "Cholesterol": "Nivel de colesterol en sangre.",
+        "Na": "Sodio en sangre",
+        "K": "Potasio en sangre",
+        "Drug": "Categoría del medicamento recetado según el perfil del paciente."
+    }
+}
