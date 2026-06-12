@@ -1,0 +1,26 @@
+{
+    "nombre": "Wine",
+    "descripcion": "Dataset de análisis químicos de vinos producidos en la región del Piamonte, Italia, derivados de tres cultivares distintos. Utilizado para clasificación multiclase mediante 13 atributos quimiométricos.",
+    "autor": "Stefan Aeberhard / M. Forina",
+    "url": "https://archive.ics.uci.edu/dataset/109/wine",
+    "muestras": 178,
+    "clases": 3,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "Alcohol": "Porcentaje de alcohol en el vino",
+        "Malic_Acid": "Concentración de ácido málico en g/L",
+        "Ash": "Contenido de cenizas del vino",
+        "Alcalinity_of_Ash": "Alcalinidad de las cenizas",
+        "Magnesium": "Contenido de magnesio en mg/L",
+        "Total_Phenols": "Concentración total de compuestos fenólicos",
+        "Flavanoids": "Concentración de flavonoides",
+        "Nonflavanoid_Phenols": "Concentración de fenoles no flavonoides",
+        "Proanthocyanins": "Concentración de proantocianinas",
+        "Color_Intensity": "Intensidad del color del vino",
+        "Hue": "Matiz o tonalidad del color del vino",
+        "OD280_OD315": "Relación de absorbancia a 280 nm y 315 nm en vinos diluidos",
+        "Proline": "Concentración del aminoácido prolina en mg/L",
+        "class": "Cultivar de origen del vino (1, 2 o 3)"
+    }
+}
