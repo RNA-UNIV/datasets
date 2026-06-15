@@ -27,7 +27,7 @@ Los datos reflejan relaciones entre factores como el diámetro y el color, lo qu
 El dataset propio, fue creado específicamente para fines educativos y está alojado en GitHub.
 
 > **URL Oficial**:
-👉 https://github.com/aap-unlp/datasets/tree/main/frutas
+👉 https://github.com/rna-univ/datasets/tree/main/frutas
 >
 > **Nombres de los archivos**:
 > - frutas_train.csv (conjunto de entrenamiento)
@@ -64,8 +64,8 @@ Acceso vía GitHub:
 import pandas as pd
 
 # URLs de los archivos
-train_url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/frutas/frutas_train.csv"
-test_url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/frutas/frutas_test.csv"
+train_url = "https://raw.githubusercontent.com/rna-univ/datasets/main/frutas/frutas_train.csv"
+test_url = "https://raw.githubusercontent.com/rna-univ/datasets/main/frutas/frutas_test.csv"
 
 # Cargar datasets
 train_df = pd.read_csv(train_url)
@@ -88,5 +88,5 @@ print("Primeras filas:\n", test_df.head())
 ## 8. 🔖 Cita Recomendada:
 
 > Dataset de Clasificación de Frutas. (2024). Universidad Nacional de La Plata. \
-https://github.com/aap-unlp/datasets/tree/main/frutas
+https://github.com/rna-univ/datasets/tree/main/frutas
 

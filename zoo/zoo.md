@@ -175,7 +175,7 @@ Este dataset es puramente educativo y no debe usarse para aplicaciones de conser
 import pandas as pd
 
 # Cargar desde URL del repositorio
-url = 'https://raw.githubusercontent.com/aap-unlp/datasets/main/zoo/zoo.csv'
+url = 'https://raw.githubusercontent.com/rna-univ/datasets/main/zoo/zoo.csv'
 zoo_ds = pd.read_csv(url)
 
 # Separar características y etiquetas

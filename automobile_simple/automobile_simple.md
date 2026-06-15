@@ -72,7 +72,7 @@ Esta versión simplificada se basa en el dataset original de Automóviles del UC
 
 ### 🔗 Ubicación Actual
 El dataset está disponible en el repositorio GitHub de datasets educativos:
-> **URL**: https://github.com/aap-unlp/datasets/tree/main/automobile
+> **URL**: https://github.com/rna-univ/datasets/tree/main/automobile
 >
 > **Archivo**: automobile-simple.csv
 
@@ -107,7 +107,7 @@ El dataset está disponible para uso educativo sin restricciones.
 import pandas as pd
 
 # URL del archivo en GitHub
-url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/automobile/automobile-simple.csv"
+url = "https://raw.githubusercontent.com/rna-univ/datasets/main/automobile/automobile-simple.csv"
 auto_simple_ds = pd.read_csv(url)
 
 # Información del dataset
@@ -135,7 +135,7 @@ Dataset Original:
 
 Versión simplificada: 
 > Universidad Nacional de La Plata. (2022).
-    https://github.com/aap-unlp/datasets/tree/main/automobile
+    https://github.com/rna-univ/datasets/tree/main/automobile
 
 ---
 

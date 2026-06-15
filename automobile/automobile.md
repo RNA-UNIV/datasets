@@ -164,7 +164,7 @@ Acceso vía repositorio GitHub:
 import pandas as pd
 
 # url del repositorio github para descargar
-url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/automobile/automobile.csv"
+url = "https://raw.githubusercontent.com/rna-univ/datasets/main/automobile/automobile.csv"
 automobile_ds = pd.read_csv(url)
 
 # Separar características y etiquetas

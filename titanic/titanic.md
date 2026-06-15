@@ -141,7 +141,7 @@ Acceso vía GitHub:
 ```python
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/titanic/titanic.csv"
+url = "https://raw.githubusercontent.com/rna-univ/datasets/main/titanic/titanic.csv"
 titanic = pd.read_csv(url)
 
 # Separar características y etiquetas

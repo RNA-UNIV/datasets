@@ -2,7 +2,7 @@
     "nombre": "Clasificación de Frutas (Prueba)",
     "descripcion": "Conjunto de prueba sintético para clasificar frutas (naranja o melón) basado en diámetro y color.",
     "autor": "Universidad Nacional de La Plata",
-    "url": "https://github.com/aap-unlp/datasets/tree/main/frutas",
+    "url": "https://github.com/rna-univ/datasets/tree/main/frutas",
     "muestras": 4,
     "clases": 2,
     "faltantes": "No",

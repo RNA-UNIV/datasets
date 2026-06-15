@@ -170,7 +170,7 @@ def load_fingers_dataset(data_dir):
     
     
 # Descargar y extraer
-url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/fingers/fingers.zip"
+url = "https://raw.githubusercontent.com/rna-univ/datasets/main/fingers/fingers.zip"
 urllib.request.urlretrieve(url, "fingers.zip")
 with zipfile.ZipFile("fingers.zip", 'r') as zip_ref:
     zip_ref.extractall("./fingers")

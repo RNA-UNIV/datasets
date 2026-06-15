@@ -185,7 +185,7 @@ Acceso vía repositorio GitHub:
 import pandas as pd
 
 # url del repositorio github para descargar
-url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/obesity_uci/obesity_uci.csv"
+url = "https://raw.githubusercontent.com/rna-univ/datasets/main/obesity_uci/obesity_uci.csv"
 obesity_ds = pd.read_csv(url)
 
 # Separar características y etiquetas

@@ -88,7 +88,7 @@ Acceso vía GitHub:
 import pandas as pd
 
 # URL del archivo en Kaggle o repositorio
-url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/drugs/drugs.csv"
+url = "https://raw.githubusercontent.com/rna-univ/datasets/main/drugs/drugs.csv"
 drugs_ds = pd.read_csv(url)
 
 # Separar características y etiquetas

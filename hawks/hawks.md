@@ -73,7 +73,7 @@ Acceso vía repositorio github:
 import pandas as pd
 
 # url del repositorio github para descargar
-url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/hawks/hawks.csv"
+url = "https://raw.githubusercontent.com/rna-univ/datasets/main/hawks/hawks.csv"
 hawks = pd.read_csv(url)
 
 # Separar características y etiquetas

@@ -54,7 +54,7 @@ Esta versión (`globos.csv`) es una adaptación al español del dataset original
 - Mantenimiento de la estructura lógica original
 
 > **Repositorio actual**:  
-> 👉 https://github.com/aap-unlp/datasets/tree/main/globos  
+> 👉 https://github.com/rna-univ/datasets/tree/main/globos  
 >
 > **Archivo**: `globos.csv`
 
@@ -105,7 +105,7 @@ Acceso vía GitHub
 import pandas as pd
 
 # Desde GitHub
-github_url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/globos/globos.csv"
+github_url = "https://raw.githubusercontent.com/rna-univ/datasets/main/globos/globos.csv"
 globos_df = pd.read_csv(github_url)
 
 # Desde archivo local (si lo tienes descargado)
@@ -131,7 +131,7 @@ Dataset original:
 
 Adaptación en español:
 > Dataset de Clasificación de Globos. (2020). Adaptación al español. Universidad Nacional de La Plata.
-https://github.com/aap-unlp/datasets/tree/main/globos
+https://github.com/rna-univ/datasets/tree/main/globos
 
 ---
 

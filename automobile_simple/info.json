@@ -2,7 +2,7 @@
     "nombre": "Automóviles Simplificado",
     "descripcion": "Versión simplificada del dataset clásico de automóviles adaptada con fines educativos.",
     "autor": "Universidad Nacional de La Plata",
-    "url": "https://github.com/aap-unlp/datasets/tree/main/automobile",
+    "url": "https://github.com/rna-univ/datasets/tree/main/automobile",
     "muestras": 205,
     "clases": 186,
     "faltantes": "Si",

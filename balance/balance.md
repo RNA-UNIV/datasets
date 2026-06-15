@@ -134,7 +134,7 @@ Acceso vía repositorio GitHub:
 ```python
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/balnce/balnce.csv"
+url = "https://raw.githubusercontent.com/rna-univ/datasets/main/balnce/balnce.csv"
 df = pd.read_csv(url)
 
 # Separar características y etiquetas

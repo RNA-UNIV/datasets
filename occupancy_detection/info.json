@@ -1,0 +1,19 @@
+{
+    "nombre": "Occupancy Detection",
+    "descripcion": "Datos experimentales para clasificación binaria de ocupación de habitaciones. Las mediciones provienen de sensores de temperatura, humedad, luz y CO2, con etiquetas de ocupación obtenidas de fotografías con marca de tiempo tomadas cada minuto.",
+    "autor": "Luis Candanedo",
+    "url": "https://archive.ics.uci.edu/dataset/357/occupancy+detection",
+    "muestras": 20560,
+    "clases": 2,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "date": "Fecha y hora de la observación en formato año-mes-día hora:minuto:segundo.",
+        "Temperature": "Temperatura ambiente en grados Celsius.",
+        "Humidity": "Humedad relativa del ambiente en porcentaje (%)",
+        "Light": "Intensidad de luz medida en Lux.",
+        "CO2": "Concentración de dióxido de carbono en partes por millón (ppm)",
+        "HumidityRatio": "Relación de humedad, cantidad derivada de temperatura y humedad relativa, en kg de vapor de agua por kg de aire seco.",
+        "Occupancy": "Variable objetivo binaria. 0: habitación no ocupada, 1: habitación ocupada."
+    }
+}

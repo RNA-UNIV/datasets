@@ -132,7 +132,7 @@ Acceso vía repositorio GitHub:
 ```python
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/semillas/semillas.csv"
+url = "https://raw.githubusercontent.com/rna-univ/datasets/main/semillas/semillas.csv"
 df = pd.read_csv(url)
 
 # Separar características y etiquetas

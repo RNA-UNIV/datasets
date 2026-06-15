@@ -127,7 +127,7 @@ Acceso vía repositorio GitHub:
 import pandas as pd
 
 # url del repositorio github para descargar
-url = "https://raw.githubusercontent.com/aap-unlp/datasets/main/iris/iris.csv"
+url = "https://raw.githubusercontent.com/rna-univ/datasets/main/iris/iris.csv"
 iris = pd.read_csv(url)
 
 # Separar características y etiquetas
