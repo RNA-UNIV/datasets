@@ -1,0 +1,21 @@
+{
+    "nombre": "California Housing",
+    "descripcion": "Dataset derivado del Censo de California de 1990 donde cada instancia representa un bloque censal. Contiene atributos demográficos, habitacionales y geográficos para predecir el valor mediano de las viviendas.",
+    "autor": "R. Kelley Pace / Ronald Barry",
+    "url": "https://archive.ics.uci.edu/dataset/563/california+housing",
+    "muestras": 20640,
+    "clases": null,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "MedInc": "Ingreso mediano de los hogares del bloque censal (escala ~0.5 – 15, en decenas de miles de USD)",
+        "HouseAge": "Antigüedad mediana de las viviendas del bloque en años",
+        "AveRooms": "Número promedio de habitaciones por vivienda en el bloque",
+        "AveBedrms": "Número promedio de dormitorios por vivienda en el bloque",
+        "Population": "Población total del bloque censal",
+        "AveOccup": "Número promedio de miembros del hogar por vivienda",
+        "Latitude": "Latitud geográfica del centroide del bloque censal en grados (rango: 32.54° – 41.95° N)",
+        "Longitude": "Longitud geográfica del centroide del bloque censal en grados (rango: -124.35° – -114.31° W)",
+        "MedHouseVal": "Valor mediano de las viviendas del bloque en USD, truncado en 500,001 USD [TARGET]"
+    }
+}

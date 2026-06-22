@@ -1,0 +1,20 @@
+{
+    "nombre": "Credit Card Fraud Detection",
+    "descripcion": "Dataset de transacciones con tarjeta de crédito realizadas por tarjetahabientes europeos en septiembre de 2013. Altamente desbalanceado (0.172% fraudes), con atributos anonimizados mediante PCA. Utilizado para detección de fraude financiero.",
+    "autor": "Machine Learning Group - Université Libre de Bruxelles (MLG-ULB)",
+    "url": "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud",
+    "muestras": 284807,
+    "clases": 2,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "Time": "Segundos transcurridos desde la primera transacción del dataset (rango: 0 – 172792 s)",
+        "V1": "Componente principal 1 obtenida por PCA (atributo original anonimizado)",
+        "V2": "Componente principal 2 obtenida por PCA (atributo original anonimizado)",
+        "V3": "Componente principal 3 obtenida por PCA (atributo original anonimizado)",
+        "...": "... (componentes principales V4 a V27, mismo formato)",
+        "V28": "Componente principal 28 obtenida por PCA (atributo original anonimizado)",
+        "Amount": "Monto de la transacción en euros",
+        "Class": "Tipo de transacción (0: legítima, 1: fraudulenta)"
+    }
+}

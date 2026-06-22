@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🦁 Dataset Zoo: Clasificación de Animales mediante Características Morfológicas y Fisiológicas
 
 ## 1. 📖 Descripción General

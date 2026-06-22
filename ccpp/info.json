@@ -1,0 +1,17 @@
+{
+    "nombre": "Combined Cycle Power Plant (CCPP)",
+    "descripcion": "Dataset de mediciones ambientales horarias recolectadas durante 6 años en una planta de ciclo combinado operando a plena carga, utilizado para predecir la producción neta de energía eléctrica.",
+    "autor": "Pınar Tüfekci / Heysem Kaya",
+    "url": "https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant",
+    "muestras": 9568,
+    "clases": null,
+    "faltantes": "No",
+    "tipo": "tabular",
+    "atributos": {
+        "AT": "Temperatura ambiente en grados Celsius (rango: 1.81 – 37.11 °C)",
+        "V": "Vacío de escape del condensador en cm Hg (rango: 25.36 – 81.56 cm Hg)",
+        "AP": "Presión ambiente en milibar (rango: 992.89 – 1033.30 mbar)",
+        "RH": "Humedad relativa en porcentaje (rango: 25.56 – 100.16 %)",
+        "PE": "Producción neta de energía eléctrica horaria en MW (rango: 420.26 – 495.76 MW) [TARGET]"
+    }
+}

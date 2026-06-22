@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🚗 Dataset Automóviles Simple: Predicción de Precios y Evaluación Ecológica
 ## 📖 Descripción General
 El conjunto de datos "Automobile-Simple" es una versión adaptada y simplificada del dataset clásico de Automóviles, diseñado específicamente para fines educativos en machine learning. Esta versión conserva las variables más relevantes del dataset original mientras agrega atributos derivados que reflejan conceptos técnicos y ecológicos integrados.

@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # ⚖️ Dataset de Balance: Clasificación de Equilibrio en Balanzas
 
 ## 1. 📖 Descripción General

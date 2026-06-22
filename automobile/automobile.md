@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🚗 Dataset Automobile: Especificaciones y Evaluación de Riesgo de Vehículos
 ## 1. 📖 Descripción General
 El dataset "Automobile" es un conjunto de datos clásico y ampliamente utilizado en el campo del machine learning y el análisis de datos. Fue extraído del *Ward's Automotive Yearbook* de 1985 y donado al repositorio UCI en 1987. Este dataset contiene especificaciones técnicas detalladas de 205 vehículos de diferentes marcas y modelos, junto con información sobre su evaluación de riesgo de seguros y pérdidas normalizadas durante su uso.
