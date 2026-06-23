@@ -103,15 +103,16 @@ Acceso vía repositorio GitHub (DataLoader):
 ```python
 from embedia.data import DataLoader
 
-# Cargar entrenamiento y test por separado
-train_ds = DataLoader("natural_scenes_train")
-test_ds  = DataLoader("natural_scenes_test")
+# Ver información del dataset
+DataLoader.dataset_info_display("natural_scenes_train")
 
-X_train, y_train = train_ds.load()
-X_test,  y_test  = test_ds.load()
+# Carga completa en memoria (eager)
+X_train, y_train, clases = DataLoader.load_images("natural_scenes_train", resize=(150, 150))
+X_test,  y_test,  _      = DataLoader.load_images("natural_scenes_test",  resize=(150, 150))
 
-# Información del dataset
-train_ds.info()
+# Carga lazy como tf.data.Dataset
+ds_train, clases = DataLoader.load_images_dataset("natural_scenes_train", resize=(150, 150))
+ds_test,  _      = DataLoader.load_images_dataset("natural_scenes_test",  resize=(150, 150))
 ```
 
 Acceso directo con Keras:
