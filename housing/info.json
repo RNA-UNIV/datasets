@@ -4,9 +4,13 @@
     "autor": "R. Kelley Pace / Ronald Barry",
     "url": "https://archive.ics.uci.edu/dataset/563/california+housing",
     "muestras": 20640,
-    "clases": null,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "regresion"
+    ],
+    "clases": null,
+    "clases_nombres": null,
+    "faltantes": "Si",
     "atributos": {
         "MedInc": "Ingreso mediano de los hogares del bloque censal (escala ~0.5 – 15, en decenas de miles de USD)",
         "HouseAge": "Antigüedad mediana de las viviendas del bloque en años",
@@ -17,5 +21,7 @@
         "Latitude": "Latitud geográfica del centroide del bloque censal en grados (rango: 32.54° – 41.95° N)",
         "Longitude": "Longitud geográfica del centroide del bloque censal en grados (rango: -124.35° – -114.31° W)",
         "MedHouseVal": "Valor mediano de las viviendas del bloque en USD, truncado en 500,001 USD [TARGET]"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

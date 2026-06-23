@@ -4,9 +4,20 @@
     "autor": "Pratham Tripathi",
     "url": "https://www.kaggle.com/datasets/prathamtripathi/drug-classification",
     "muestras": 200,
-    "clases": 5,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion",
+        "regresion"
+    ],
+    "clases": 5,
+    "clases_nombres": [
+        "drugA",
+        "drugB",
+        "drugC",
+        "drugX",
+        "drugY"
+    ],
+    "faltantes": "No",
     "atributos": {
         "Age": "Edad del paciente al momento de la evaluación (en años).",
         "Sex": "Sexo del paciente.",
@@ -15,5 +26,7 @@
         "Na": "Sodio en mucosa",
         "K": "Potasio en mucosa",
         "Drug": "Categoría del medicamento recetado según el perfil del paciente."
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

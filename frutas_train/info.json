@@ -4,12 +4,22 @@
     "autor": "Universidad Nacional de La Plata",
     "url": "https://github.com/rna-univ/datasets/tree/main/frutas",
     "muestras": 16,
-    "clases": 2,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion",
+        "regresion"
+    ],
+    "clases": 2,
+    "clases_nombres": [
+        "Melon",
+        "Naranja"
+    ],
+    "faltantes": "No",
     "atributos": {
         "Diametro": "Diámetro de la fruta en centímetros (variable continua).",
         "Color": "Valor numérico que representa el tono de color de la fruta en escala de 0-255 (variable continua).",
         "Clase": "Tipo de fruta según sus características físicas."
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

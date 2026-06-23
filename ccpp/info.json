@@ -4,14 +4,20 @@
     "autor": "Pınar Tüfekci / Heysem Kaya",
     "url": "https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant",
     "muestras": 9568,
-    "clases": null,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "regresion"
+    ],
+    "clases": null,
+    "clases_nombres": null,
+    "faltantes": "No",
     "atributos": {
         "AT": "Temperatura ambiente en grados Celsius (rango: 1.81 – 37.11 °C)",
         "V": "Vacío de escape del condensador en cm Hg (rango: 25.36 – 81.56 cm Hg)",
         "AP": "Presión ambiente en milibar (rango: 992.89 – 1033.30 mbar)",
         "RH": "Humedad relativa en porcentaje (rango: 25.56 – 100.16 %)",
         "PE": "Producción neta de energía eléctrica horaria en MW (rango: 420.26 – 495.76 MW) [TARGET]"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

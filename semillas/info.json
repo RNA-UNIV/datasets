@@ -4,9 +4,18 @@
     "autor": "M. Charytanowicz, J. Niewczas, P. Kulczycki, et al.",
     "url": "https://archive.ics.uci.edu/ml/datasets/seeds",
     "muestras": 210,
-    "clases": 3,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion",
+        "agrupamiento"
+    ],
+    "clases": 3,
+    "clases_nombres": [
+        "Tipo1",
+        "Tipo2",
+        "Tipo3"
+    ],
+    "faltantes": "No",
     "atributos": {
         "Area": "Área de la sección transversal del grano (mm²)",
         "Perimetro": "Perímetro del grano (mm)",
@@ -16,5 +25,7 @@
         "Asimetria": "Coeficiente de asimetría del grano",
         "LongSurco": "Longitud del surco del grano (mm)",
         "Clase": "Variedad de trigo a la que pertenece el grano."
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

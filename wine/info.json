@@ -4,9 +4,17 @@
     "autor": "Stefan Aeberhard / M. Forina",
     "url": "https://archive.ics.uci.edu/dataset/109/wine",
     "muestras": 178,
-    "clases": 3,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion"
+    ],
+    "clases": 3,
+    "clases_nombres": [
+        "1",
+        "2",
+        "3"
+    ],
+    "faltantes": "No",
     "atributos": {
         "Alcohol": "Porcentaje de alcohol en el vino",
         "Malic_Acid": "Concentración de ácido málico en g/L",
@@ -22,5 +30,7 @@
         "OD280_OD315": "Relación de absorbancia a 280 nm y 315 nm en vinos diluidos",
         "Proline": "Concentración del aminoácido prolina en mg/L",
         "class": "Cultivar de origen del vino (1, 2 o 3)"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

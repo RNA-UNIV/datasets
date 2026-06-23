@@ -4,14 +4,25 @@
     "autor": "Ronald Fisher / Edgar Anderson",
     "url": "https://archive.ics.uci.edu/ml/datasets/Iris",
     "muestras": 150,
-    "clases": 3,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion",
+        "agrupamiento"
+    ],
+    "clases": 3,
+    "clases_nombres": [
+        "Iris-setosa",
+        "Iris-versicolor",
+        "Iris-virginica"
+    ],
+    "faltantes": "No",
     "atributos": {
         "sepallength": "Longitud del sépalo en centímetros",
         "sepalwidth": "Ancho del sépalo en centímetros",
         "petallength": "Longitud del pétalo en centímetros",
         "petalwidth": "Ancho del pétalo en centímetros",
         "class": "Especie de flor Iris (Iris-setosa, Iris-versicolor, Iris-virginica)"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

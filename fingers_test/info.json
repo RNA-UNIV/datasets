@@ -3,13 +3,13 @@
     "descripcion": "Imágenes en escala de grises de manos mostrando de 0 a 5 dedos, etiquetadas con el número de dedos y orientación (izquierda/derecha).",
     "autor": "Pavel Koryakin",
     "url": "https://www.kaggle.com/datasets/koryakinp/fingers",
-    "muestras": 21600,
-    "clases": 12,
+    "muestras": 3600,
+    "clases": 6,
+    "clases_nombres": ["0", "1", "2", "3", "4", "5"],
     "faltantes": "No",
-    "tipo": "archivos",
-    "atributos": {
-        "Imagen": "Atributo Imagen",
-        "Lado_Mano": "Atributo Lado_Mano",
-        "Cant_Dedos": "Atributo Cant_Dedos"
-    }
+    "tipo": "imagen",
+    "tareas": ["clasificacion"],
+    "resolucion": "150x150",
+    "formato_archivo": "jpg",
+    "atributos": null
 }

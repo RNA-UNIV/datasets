@@ -4,9 +4,14 @@
     "autor": "Machine Learning Group - Université Libre de Bruxelles (MLG-ULB)",
     "url": "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud",
     "muestras": 284807,
-    "clases": 2,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion",
+        "regresion"
+    ],
+    "clases": 2,
+    "clases_nombres": null,
+    "faltantes": "No",
     "atributos": {
         "Time": "Segundos transcurridos desde la primera transacción del dataset (rango: 0 – 172792 s)",
         "V1": "Componente principal 1 obtenida por PCA (atributo original anonimizado)",
@@ -16,5 +21,7 @@
         "V28": "Componente principal 28 obtenida por PCA (atributo original anonimizado)",
         "Amount": "Monto de la transacción en euros",
         "Class": "Tipo de transacción (0: legítima, 1: fraudulenta)"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": null
 }

@@ -4,9 +4,22 @@
     "autor": "Richard S. Forsyth",
     "url": "https://archive.ics.uci.edu/dataset/111/zoo",
     "muestras": 101,
-    "clases": 7,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion",
+        "agrupamiento"
+    ],
+    "clases": 7,
+    "clases_nombres": [
+        "Anfibio",
+        "Ave",
+        "Insecto",
+        "Invertebrado",
+        "Mamifero",
+        "Pez",
+        "Reptil"
+    ],
+    "faltantes": "No",
     "atributos": {
         "animal": "Nombre común del animal en español (texto). Este campo es un identificador único para cada instancia y no debe utilizarse como característica predictora en modelos de clasificación.",
         "Tiene_Pelo": "Indica si el animal posee pelo o pelaje (1 = Sí, 0 = No)",
@@ -26,5 +39,7 @@
         "Domestico": "Indica si el animal es comúnmente domesticado (1 = Sí, 0 = No)",
         "Tamano_Gato": "Indica si el animal es aproximadamente del tamaño de un gato doméstico o más pequeño (1 = Sí, 0 = No)",
         "Clase": "Categoría taxonómica del animal. El dataset clasifica los animales en 7 tipos principales:"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

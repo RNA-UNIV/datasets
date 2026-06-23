@@ -4,9 +4,22 @@
     "autor": "Jeffrey Schlimmer",
     "url": "https://archive.ics.uci.edu/dataset/10/automobile",
     "muestras": 205,
-    "clases": 6,
-    "faltantes": "Si",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion",
+        "regresion",
+        "agrupamiento"
+    ],
+    "clases": 6,
+    "clases_nombres": [
+        "-1",
+        "-2",
+        "0",
+        "1",
+        "2",
+        "3"
+    ],
+    "faltantes": "Si",
     "atributos": {
         "symboling": "Indica el grado de riesgo del vehículo en términos de seguros, ajustado en relación con su precio.",
         "normalized-losses": "Representa el costo promedio de pérdida por vehículo asegurado en un año, normalizado por categoría de tamaño.",
@@ -34,5 +47,7 @@
         "city-mpg": "Millas por galón en ciudad.",
         "highway-mpg": "Millas por galón en autopista.",
         "price": "Valor continuo que representa el precio de venta del vehículo en dólares."
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

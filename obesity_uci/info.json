@@ -4,9 +4,23 @@
     "autor": "Fabio Mendoza Palechor & Alexis De la Hoz Manotas",
     "url": "https://archive.ics.uci.edu/ml/datasets/Estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition",
     "muestras": 2111,
-    "clases": 7,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion",
+        "regresion",
+        "agrupamiento"
+    ],
+    "clases": 7,
+    "clases_nombres": [
+        "Insufficient_Weight",
+        "Normal_Weight",
+        "Obesity_Type_I",
+        "Obesity_Type_II",
+        "Obesity_Type_III",
+        "Overweight_Level_I",
+        "Overweight_Level_II"
+    ],
+    "faltantes": "No",
     "atributos": {
         "Gender": "Género (Male, Female)",
         "Age": "Edad en años",
@@ -25,5 +39,7 @@
         "CALC": "Consumo de alcohol (no, Sometimes, Frequently, Always)",
         "MTRANS": "Medio de transporte utilizado",
         "NObesity": "Clasificación de nivel de obesidad"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

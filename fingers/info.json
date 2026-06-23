@@ -4,12 +4,12 @@
     "autor": "Pavel Koryakin",
     "url": "https://www.kaggle.com/datasets/koryakinp/fingers",
     "muestras": 21600,
-    "clases": 12,
+    "clases": 6,
+    "clases_nombres": ["0", "1", "2", "3", "4", "5"],
     "faltantes": "No",
-    "tipo": "archivos",
-    "atributos": {
-        "Imagen": "Atributo Imagen",
-        "Lado_Mano": "Atributo Lado_Mano",
-        "Cant_Dedos": "Atributo Cant_Dedos"
-    }
+    "tipo": "imagen",
+    "tareas": ["clasificacion"],
+    "resolucion": "150x150",
+    "formato_archivo": "jpg",
+    "atributos": null
 }

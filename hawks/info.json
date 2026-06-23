@@ -4,10 +4,16 @@
     "autor": "Mathsian",
     "url": "https://www.kaggle.com/datasets/mathsian/three-hawk-species",
     "muestras": 893,
-    "clases": 0,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion"
+    ],
+    "clases": 0,
+    "clases_nombres": null,
+    "faltantes": "No",
     "atributos": {
         "A�o;Especie;Ala;Peso;Cola;Hallux": "Atributo A�o;Especie;Ala;Peso;Cola;Hallux"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

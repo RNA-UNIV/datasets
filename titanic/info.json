@@ -4,9 +4,16 @@
     "autor": "Curado por DataScience Dojo",
     "url": "https://github.com/datasciencedojo/datasets",
     "muestras": 891,
-    "clases": 2,
-    "faltantes": "Si",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion"
+    ],
+    "clases": 2,
+    "clases_nombres": [
+        "0",
+        "1"
+    ],
+    "faltantes": "Si",
     "atributos": {
         "PassengerId": "Identificador único para cada pasajero. Variable administrativa sin valor predictivo.",
         "Survived": "Indicador binario que registra el destino final del pasajero",
@@ -20,5 +27,7 @@
         "Fare": "Precio pagado por el ticket en libras esterlinas (£). Refleja la combinación de clase y comodidades.",
         "Cabin": "Número de cabina asignado. Alto porcentaje de valores nulos (77.1%), pero puede indicar ubicación en el barco y estatus.",
         "Embarked": "Puerto inicial donde el pasajero abordó el Titanic"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

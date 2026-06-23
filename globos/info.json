@@ -4,14 +4,23 @@
     "autor": "Michael Pazzani",
     "url": "https://archive.ics.uci.edu/dataset/13/balloons",
     "muestras": 16,
-    "clases": 2,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion"
+    ],
+    "clases": 2,
+    "clases_nombres": [
+        "Amarillo",
+        "Rojo"
+    ],
+    "faltantes": "No",
     "atributos": {
         "﻿Color": "Atributo ﻿Color",
         "Tamanio": "Tamaño del globo.",
         "Se_estira?": "Capacidad de estiramiento del material.",
         "Edad": "Grupo de edad de la persona que intenta inflar el globo.",
         "Inflado?": "Indica si el globo puede inflarse o no."
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

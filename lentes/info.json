@@ -4,14 +4,24 @@
     "autor": "Desconocido",
     "url": "https://archive.ics.uci.edu/ml/datasets/Lenses",
     "muestras": 24,
-    "clases": 3,
-    "faltantes": "No",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion"
+    ],
+    "clases": 3,
+    "clases_nombres": [
+        "Joven",
+        "Presbicia",
+        "pre_presb"
+    ],
+    "faltantes": "No",
     "atributos": {
         "Edad_Paciente": "Edad del paciente (1: joven, 2: pre-presbicia, 3: presbicia)",
         "Prescripcion": "Prescripción de refracción (1: miope, 2: hipermetrope)",
         "Astigmatismo": "Si presenta astigmatismo (1: no, 2: si)",
         "Tasa_Lagrimeo": "Tasa de producción de lágrimas (1: reducida, 2: normal)",
         "Clase": "Tipo de lentes recomendados (1: duros, 2: blandos, 3: ninguno)"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }

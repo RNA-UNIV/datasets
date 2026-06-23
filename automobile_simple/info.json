@@ -4,9 +4,14 @@
     "autor": "Universidad Nacional de La Plata",
     "url": "https://github.com/rna-univ/datasets/tree/main/automobile",
     "muestras": 205,
-    "clases": 186,
-    "faltantes": "Si",
     "tipo": "tabular",
+    "tareas": [
+        "clasificacion",
+        "regresion"
+    ],
+    "clases": 186,
+    "clases_nombres": null,
+    "faltantes": "Si",
     "atributos": {
         "make": "Fabricante del automóvil.",
         "fuel-type": "Tipo de combustible utilizado.",
@@ -20,5 +25,7 @@
         "price": "Valor continuo que representa el precio de venta del vehículo en dólares.",
         "volume": "Atributo derivado que representa el volumen aproximado del vehículo, calculado a partir de dimensiones físicas.",
         "eco-rating": "Puntuación compuesta que integra:"
-    }
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
 }
