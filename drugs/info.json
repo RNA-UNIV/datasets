@@ -12,8 +12,8 @@
         "Sex": "Sexo del paciente.",
         "BP": "Nivel de presión arterial del paciente.",
         "Cholesterol": "Nivel de colesterol en sangre.",
-        "Na": "Sodio en sangre",
-        "K": "Potasio en sangre",
+        "Na": "Sodio en mucosa",
+        "K": "Potasio en mucosa",
         "Drug": "Categoría del medicamento recetado según el perfil del paciente."
     }
 }

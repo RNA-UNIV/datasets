@@ -1,0 +1,84 @@
+{
+    "_descripcion": "Schema de referencia para archivos info.json de datasets del repositorio RNA-UNIV.",
+    "_uso": "Este archivo documenta los campos válidos y sus opciones. No es un archivo de validación formal.",
+
+    "campos": {
+        "nombre": {
+            "tipo": "string",
+            "descripcion": "Nombre descriptivo del dataset en español.",
+            "ejemplo": "Clasificación de Escenas Naturales - Entrenamiento"
+        },
+        "descripcion": {
+            "tipo": "string",
+            "descripcion": "Descripción breve del contenido y propósito del dataset."
+        },
+        "autor": {
+            "tipo": "string",
+            "descripcion": "Autor o institución que creó o publicó el dataset original."
+        },
+        "url": {
+            "tipo": "string",
+            "descripcion": "URL de acceso al dataset original (Kaggle, UCI, etc.)."
+        },
+        "muestras": {
+            "tipo": "entero",
+            "descripcion": "Cantidad total de instancias o archivos en el dataset."
+        },
+        "clases": {
+            "tipo": "entero | null",
+            "descripcion": "Cantidad de clases para tareas de clasificación. null si no aplica."
+        },
+        "faltantes": {
+            "tipo": "string",
+            "descripcion": "Indica si el dataset contiene valores faltantes.",
+            "opciones": ["Si", "No"]
+        },
+        "tipo": {
+            "tipo": "string",
+            "descripcion": "Naturaleza de los datos.",
+            "opciones": [
+                "tabular",
+                "imagen",
+                "audio",
+                "serie_temporal",
+                "texto"
+            ]
+        },
+        "tareas": {
+            "tipo": "array de strings",
+            "descripcion": "Tareas de machine learning para las que es adecuado el dataset.",
+            "opciones": [
+                "clasificacion",
+                "regresion",
+                "agrupamiento",
+                "deteccion_anomalias",
+                "segmentacion",
+                "generacion",
+                "ranking",
+                "recomendacion"
+            ]
+        },
+        "atributos": {
+            "tipo": "objeto | null",
+            "descripcion": "Diccionario de atributos con su descripción. Aplica principalmente a datasets tabulares. null para datasets de imágenes, audio u otros tipos donde los atributos no son columnas.",
+            "ejemplo": {
+                "precio": "Valor continuo que representa el precio de venta en dólares."
+            }
+        },
+        "clases_nombres": {
+            "tipo": "array de strings | null",
+            "descripcion": "Lista de nombres de clases para datasets de clasificación. null si no aplica.",
+            "ejemplo": ["buildings", "forest", "glacier", "mountain", "sea", "street"]
+        },
+        "resolucion": {
+            "tipo": "string | null",
+            "descripcion": "Resolución de las imágenes en formato ANCHOxALTO. Solo para datasets de tipo imagen. null si no aplica.",
+            "ejemplo": "150x150"
+        },
+        "formato_archivo": {
+            "tipo": "string | null",
+            "descripcion": "Formato de los archivos del dataset. null para datasets tabulares sin archivos individuales.",
+            "opciones": ["jpg", "png", "wav", "mp3", "csv", "json", "txt", null]
+        }
+    }
+}

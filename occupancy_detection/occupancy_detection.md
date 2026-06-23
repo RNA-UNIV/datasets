@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🏢 Dataset Occupancy Detection: Detección de Ocupación de Habitaciones mediante Sensores Ambientales
 
 ## 1. 📖 Descripción General

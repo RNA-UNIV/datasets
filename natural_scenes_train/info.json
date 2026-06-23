@@ -1,0 +1,15 @@
+{
+    "nombre": "Clasificación de Escenas Naturales - Entrenamiento",
+    "descripcion": "Imágenes de escenas naturales y urbanas organizadas en 6 categorías, destinadas al entrenamiento de modelos de clasificación. Subconjunto del Intel Scene Classification Challenge (2018).",
+    "autor": "Intel / Analytics Vidhya",
+    "url": "https://www.kaggle.com/datasets/puneet6060/intel-image-classification",
+    "muestras": 14000,
+    "clases": 6,
+    "clases_nombres": ["buildings", "forest", "glacier", "mountain", "sea", "street"],
+    "faltantes": "No",
+    "tipo": "imagen",
+    "tareas": ["clasificacion"],
+    "resolucion": "150x150",
+    "formato_archivo": "jpg",
+    "atributos": null
+}
