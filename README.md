@@ -4,7 +4,7 @@
 
 # 📦 RNA-UNIV — Repositorio de Datasets
 
-Colección de datasets para prácticas y proyectos de machine learning, mantenida por la comunidad **RNA-UNIV**. Está diseñada para ser usada en conjunto con el **DataLoader** de [EmbedIA](https://github.com/RNA-UNIV/embedia), que permite descargar y cargar cualquier dataset con pocas líneas de código.
+Colección de datasets para prácticas y proyectos de machine learning, mantenida por la comunidad **RNA-UNIV**. Está diseñada para ser usada en conjunto con el **DataLoader** del repositorio de código para aprendizaje de redes neuronales [rna](https://github.com/RNA-UNIV/rna), que permite descargar y cargar cualquier dataset con pocas líneas de código.
 
 ---
 
@@ -33,7 +33,7 @@ Los archivos de datos pequeños (< 50 MB) se almacenan directamente en la carpet
 ## 🚀 Uso con DataLoader
 
 ```python
-from embedia.data import DataLoader
+from rna.data import DataLoader
 
 # Ver datasets disponibles
 DataLoader.list_datasets()
@@ -67,13 +67,13 @@ ds, clases = DataLoader.load_audio_dataset("nombre_dataset", sample_rate=16000, 
 ```
 
 ---
+
 ## 📋 Datasets Disponibles
 
 ### 📊 Tabulares
 
 | Dataset | Descripción | Tarea | Muestras | Clases | Faltantes | Variantes |
 |---|---|---|---|---|---|---|
-
 | 🚗 [automobile](automobile/) | Especificaciones técnicas detalladas de 205 vehículos de diferentes marcas y modelos, junto con información sobre su evaluación de riesgo de seguros y pérdidas normalizadas. | Clasificación · Regresión · Agrupamiento | 205 | 6 | ✅ | [completo](automobile/) · [simple](automobile_simple/) |
 | ⚖️ [balance](balance/) | El conjunto de datos de Balance Scale fue creado para modelar los resultados de experimentos psicológicos que estudian la percepción del equilibrio. | Clasificación | 625 | 3 | — | [completo](balance/) |
 | ⚡ [ccpp](ccpp/) | Dataset de mediciones ambientales horarias recolectadas durante 6 años en una planta de ciclo combinado operando a plena carga, utilizado para predecir la producción neta de energía eléctrica. | Regresión | 9.568 | — | — | [completo](ccpp/) |
@@ -97,10 +97,8 @@ ds, clases = DataLoader.load_audio_dataset("nombre_dataset", sample_rate=16000, 
 
 | Dataset | Descripción | Tarea | Muestras | Clases | Variantes |
 |---|---|---|---|---|---|
-
 | ✋ [fingers](fingers/) | Imágenes en escala de grises de manos mostrando de 0 a 5 dedos, etiquetadas con el número de dedos y orientación (izquierda/derecha). | Clasificación | 21.600 | 6 | [completo](fingers/) · [train](fingers_train/) · [test](fingers_test/) |
 | 🏔️ [natural_scenes](natural_scenes_test/) | Imágenes de escenas naturales y urbanas organizadas en 6 categorías, destinadas a la evaluación de modelos de clasificación. Subconjunto del Intel Scene Classification Challenge (2018). | Clasificación | 3.000 | 6 | [train](natural_scenes_train/) · [test](natural_scenes_test/) |
-
 ---
 
 ## 📄 Licencia
