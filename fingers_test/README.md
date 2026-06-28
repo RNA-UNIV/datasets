@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # ✋ Dataset de Dedos: Clasificación de Número de Dedos en Imágenes de Manos
 
 ## 1. 📖 Descripción General

@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🎈 Dataset Clasificación de Globos: Predicción de Inflado
 ## 1. 📖 Descripción General
 El conjunto de datos de Clasificación de Globos es una herramienta educativa clásica para principiantes en aprendizaje automático y minería de datos. Este dataset contiene información sobre características físicas de globos y si pueden inflarse o no, permitiendo desarrollar modelos predictivos para determinar la viabilidad de inflado basado en atributos observables.

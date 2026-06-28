@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🏃 Dataset de Obesidad: Niveles de Peso según Hábitos Alimenticios y Condición Física
 
 ## 1. 📖 Descripción General

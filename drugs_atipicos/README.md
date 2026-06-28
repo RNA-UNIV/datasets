@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🩺 Dataset Clasificación de Fármacos: Predicción de Tipos de Medicamentos
 ## 1. 📖 Descripción General
 El conjunto de datos de Clasificación de Fármacos es una herramienta valiosa para principiantes en aprendizaje automático que desean explorar modelos de clasificación basados en características clínicas del paciente. Este dataset contiene información detallada sobre variables médicas que influyen en la elección de un medicamento específico, permitiendo desarrollar modelos predictivos para determinar qué fármaco podría ser más efectivo para un paciente según su perfil fisiológico.

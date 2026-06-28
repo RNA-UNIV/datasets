@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🌾 Dataset de Semillas: Clasificación de Variedades de Trigo
 
 ## 1. 📖 Descripción General

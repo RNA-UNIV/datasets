@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🍷 Dataset Wine: Clasificación de Cultivares de Vino por Análisis Químico
 
 ## 1. 📖 Descripción General

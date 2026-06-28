@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🔊 Dataset Sonar: Clasificación de Minas Submarinas vs. Rocas
 
 ## 1. 📖 Descripción General

@@ -1,0 +1,32 @@
+{
+    "nombre": "Dataset Spoken Words: Common Voice 7.0",
+    "descripcion": "Subconjunto derivado de Mozilla Common Voice 7.0 diseñado para tareas de reconocimiento de palabras aisladas (Keyword Spotting). Contiene grabaciones de una única palabra pronunciada por voluntarios, con un vocabulario de 14 clases entre dígitos y comandos.",
+    "autor": "Mozilla Foundation",
+    "url": "https://mozilladatacollective.com/datasets",
+    "muestras": 6349,
+    "tipo": "audio",
+    "tareas": [
+        "clasificacion"
+    ],
+    "clases": 14,
+    "clases_nombres": [
+        "zero",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "yes",
+        "no",
+        "hey",
+        "firefox"
+    ],
+    "faltantes": "No",
+    "atributos": null,
+    "resolucion": null,
+    "formato_archivo": "ogg"
+}

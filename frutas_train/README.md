@@ -1,3 +1,7 @@
+<p align="center">
+<img src="banner.png" width="1000">
+</p>
+
 # 🍎 Dataset Clasificación de Frutas: Predicción de Tipos de Frutas
 ## 1. 📖 Descripción General
 El conjunto de datos de Clasificación de Frutas es una herramienta educativa diseñada para principiantes en aprendizaje automático que desean explorar modelos de clasificación basados en características físicas de frutas. Este dataset contiene información sobre variables visuales que influyen en la identificación de diferentes tipos de frutas, permitiendo desarrollar modelos predictivos para determinar qué tipo de fruta corresponde según sus atributos físicos.
