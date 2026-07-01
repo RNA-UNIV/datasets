@@ -58,8 +58,6 @@ Este dataset resulta adecuado para:
 
 ## 6. 📈 Estadísticas del Dataset
 
-## 6. 📈 Estadísticas del Dataset
-
 ### 6.1 General y Técnica
 
 | Métrica | Valor |
