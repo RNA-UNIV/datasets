@@ -99,20 +99,16 @@ El dataset está disponible públicamente en Kaggle. No se especifica una licenc
 
 ### 7.1 📥 Cómo cargarlo en Python
 
-Acceso vía repositorio GitHub (DataLoader):
+Acceso con el DataLoader de la biblioteca `rna` (Recomendado):
 ```python
-from embedia.data import DataLoader
+# Instalar la biblioteca si no está disponible:
+# !pip install https://github.com/RNA-UNIV/rna/archive/refs/heads/main.zip
 
-# Ver información del dataset
-DataLoader.dataset_info_display("natural_scenes_train")
+from rna.data.ClassDataLoader import DataLoader
 
-# Carga completa en memoria (eager)
-X_train, y_train, clases = DataLoader.load_images("natural_scenes_train", resize=(150, 150))
-X_test,  y_test,  _      = DataLoader.load_images("natural_scenes_test",  resize=(150, 150))
-
-# Carga lazy como tf.data.Dataset
-ds_train, clases = DataLoader.load_images_dataset("natural_scenes_train", resize=(150, 150))
-ds_test,  _      = DataLoader.load_images_dataset("natural_scenes_test",  resize=(150, 150))
+# Cargar imágenes y etiquetas en memoria (eager)
+X_train, y_train, clases, _ = DataLoader.load_images("natural_scenes_train", resize=(150, 150))
+X_test,  y_test,  _,      _ = DataLoader.load_images("natural_scenes_test",  resize=(150, 150))
 ```
 
 Acceso directo con Keras:

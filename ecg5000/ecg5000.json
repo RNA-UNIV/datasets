@@ -1,0 +1,18 @@
+{
+    "nombre": "ECG5000",
+    "descripcion": "Dataset de series temporales de latidos cardíacos extraídos de un ECG de 20 horas de un paciente con insuficiencia cardíaca congestiva severa. Cada instancia es la forma de onda de un latido (140 puntos). Utilizado para clasificación multiclase (5 ritmos) o detección de anomalías binaria (Normal vs. Anómalo).",
+    "autor": "Yanping Chen et al. / PhysioNet - Goldberger et al.",
+    "url": "http://www.timeseriesclassification.com/description.php?Dataset=ECG5000",
+    "muestras": 5000,
+    "clases": 5,
+    "faltantes": "No",
+    "tipo": "serie_temporal",
+    "atributos": {
+        "t001": "Amplitud de la señal ECG en el punto temporal 1 (de 140)",
+        "t002": "Amplitud de la señal ECG en el punto temporal 2 (de 140)",
+        "t003": "Amplitud de la señal ECG en el punto temporal 3 (de 140)",
+        "...": "... (puntos temporales t004 a t139, mismo formato)",
+        "t140": "Amplitud de la señal ECG en el punto temporal 140 (de 140)",
+        "class": "Tipo de latido: 1=Normal, 2=R-on-T PVC, 3=PVC, 4=SP/EB, 5=Unclassified (binario: 1=Normal, 0=Anómalo)"
+    }
+}

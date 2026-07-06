@@ -1,0 +1,37 @@
+{
+    "nombre": "Flowers16",
+    "descripcion": "Imágenes de flores pertenecientes a 16 especies distintas, orientadas a tareas de clasificación de imágenes. Dataset recuperado mediante mirror de HyperAI a partir de la publicación original de Kaggle (l3llff/flowers), actualmente no disponible; la clase water_lily fue reprocesada (segmentación de foreground, recorte y normalización a 256x256) para unificarla con el resto del dataset.",
+    "autor": "l3llff",
+    "url": "https://www.kaggle.com/datasets/l3llff/flowers",
+    "muestras": 15648,
+    "tipo": "imagen",
+    "tareas": [
+        "clasificacion"
+    ],
+    "clases": 16,
+    "clases_nombres": [
+        "astilbe",
+        "bellflower",
+        "black_eyed_susan",
+        "calendula",
+        "california_poppy",
+        "carnation",
+        "common_daisy",
+        "coreopsis",
+        "daffodil",
+        "dandelion",
+        "iris",
+        "magnolia",
+        "rose",
+        "sunflower",
+        "tulip",
+        "water_lily"
+    ],
+    "faltantes": "No",
+    "atributos": {
+        "class": "Etiqueta categórica correspondiente a la especie de flor representada en la imagen, determinada por la carpeta contenedora.",
+        "image": "Archivo de imagen en formato JPEG de 256x256 píxeles."
+    },
+    "resolucion": "256x256",
+    "formato_archivo": "jpg"
+}

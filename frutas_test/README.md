@@ -63,6 +63,17 @@ El dataset está disponible para uso educativo sin restricciones.
 
 ### 7.1 📥 Cómo cargarlo en Python:
 
+Acceso con el DataLoader de la biblioteca `rna` (Recomendado):
+```python
+# Instalar la biblioteca si no está disponible:
+# !pip install https://github.com/RNA-UNIV/rna/archive/refs/heads/main.zip
+
+from rna.data.ClassDataLoader import DataLoader
+
+# Cargar el dataset como DataFrame de Pandas
+df = DataLoader.load_dataframe('frutas_test')
+```
+
 Acceso vía GitHub:
 ```python
 import pandas as pd

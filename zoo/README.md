@@ -174,6 +174,17 @@ Este dataset es puramente educativo y no debe usarse para aplicaciones de conser
 
 ### 7.1 📥 Cómo Cargarlo en Python
 
+Acceso con el DataLoader de la biblioteca `rna` (Recomendado):
+```python
+# Instalar la biblioteca si no está disponible:
+# !pip install https://github.com/RNA-UNIV/rna/archive/refs/heads/main.zip
+
+from rna.data.ClassDataLoader import DataLoader
+
+# Cargar el dataset como DataFrame de Pandas
+df = DataLoader.load_dataframe('zoo')
+```
+
 **Acceso vía GitHub:**
 ```python
 import pandas as pd

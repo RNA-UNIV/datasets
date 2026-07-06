@@ -145,6 +145,17 @@ El dataset está disponible en Kaggle. Para información sobre la licencia espec
 
 ### 7.1 📥 Cómo cargarlo en Python:
 
+Acceso con el DataLoader de la biblioteca `rna` (Recomendado):
+```python
+# Instalar la biblioteca si no está disponible:
+# !pip install https://github.com/RNA-UNIV/rna/archive/refs/heads/main.zip
+
+from rna.data.ClassDataLoader import DataLoader
+
+# Cargar imágenes y etiquetas en memoria
+X, y, clases, _ = DataLoader.load_images('fingers_train', resize=(150, 150))
+```
+
 Acceso vía GitHub:
 ```python
 import zipfile

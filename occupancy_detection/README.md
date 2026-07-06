@@ -112,6 +112,17 @@ El dataset está disponible públicamente bajo una licencia **Creative Commons A
 
 ### 7.1 📥 Cómo cargarlo en Python:
 
+Acceso con el DataLoader de la biblioteca `rna` (Recomendado):
+```python
+# Instalar la biblioteca si no está disponible:
+# !pip install https://github.com/RNA-UNIV/rna/archive/refs/heads/main.zip
+
+from rna.data.ClassDataLoader import DataLoader
+
+# Cargar el dataset como DataFrame de Pandas
+df = DataLoader.load_dataframe('occupancy_detection')
+```
+
 **Acceso vía librería `ucimlrepo` (recomendado):**
 
 ```python

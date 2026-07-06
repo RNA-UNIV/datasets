@@ -79,6 +79,7 @@ ds, clases = DataLoader.load_audio_dataset("nombre_dataset", sample_rate=16000, 
 | ⚡ [ccpp](ccpp/) | Dataset de mediciones ambientales horarias recolectadas durante 6 años en una planta de ciclo combinado operando a plena carga, utilizado para predecir la producción neta de energía eléctrica. | Regresión | 9.568 | — | — | [completo](ccpp/) |
 | 💳 [creditcard](creditcard/) | Dataset de transacciones con tarjeta de crédito realizadas por tarjetahabientes europeos en septiembre de 2013. Altamente desbalanceado (0.172% fraudes), con atributos anonimizados mediante PCA. Utilizado para detección de fraude financiero. | Clasificación · Regresión | 284.807 | 2 | — | [completo](creditcard/) |
 | 💊 [drugs](drugs/) | Contiene información detallada sobre variables médicas que influyen en la elección de un medicamento específico. | Clasificación · Regresión | 200 | 5 | — | [completo](drugs/) · [train](drugs_train/) · [test](drugs_test/) · [atípicos](drugs_atipicos/) |
+| 🫀 [ecg5000](ecg5000/) | Series temporales de latidos cardíacos (140 puntos de amplitud) extraídas de un electrocardiograma continuo de un paciente, utilizado para clasificación de ritmos y detección de anomalías. | Clasificación | 4.998 | 2 | — | [completo](ecg5000/) |
 | 🍊 [frutas](frutas_test/) | Conjunto de prueba sintético para clasificar frutas (naranja o melón) basado en diámetro y color. | Clasificación · Regresión | 4 | 2 | — | [train](frutas_train/) · [test](frutas_test/) |
 | 🎈 [globos](globos/) | Adaptación en español del dataset clásico Balloons de la UCI, utilizado para la inducción de reglas sobre si un globo se infla o no. | Clasificación | 16 | 2 | — | [completo](globos/) |
 | 🦅 [hawks](hawks/) | Medidas morfológicas de tres especies de halcones (cola roja, alas anchas y cola lineada) registradas en estudios de campo. | Clasificación | 893 | — | — | [completo](hawks/) |
@@ -98,6 +99,7 @@ ds, clases = DataLoader.load_audio_dataset("nombre_dataset", sample_rate=16000, 
 | Dataset | Descripción | Tarea | Muestras | Clases | Variantes |
 |---|---|---|---|---|---|
 | ✋ [fingers](fingers/) | Imágenes en escala de grises de manos mostrando de 0 a 5 dedos, etiquetadas con el número de dedos y orientación (izquierda/derecha). | Clasificación | 21.600 | 6 | [completo](fingers/) · [train](fingers_train/) · [test](fingers_test/) |
+| 🌻 [flowers16](flowers16/) | Imágenes de flores de 256x256 píxeles pertenecientes a 16 especies distintas. Recuperado mediante un mirror del dataset original de Kaggle y curado para unificar la resolución y calidad de todas las clases. | Clasificación | 15.648 | 16 | [completo](flowers16/) |
 | 🏔️ [natural_scenes](natural_scenes_test/) | Imágenes de escenas naturales y urbanas organizadas en 6 categorías, destinadas a la evaluación de modelos de clasificación. Subconjunto del Intel Scene Classification Challenge (2018). | Clasificación | 3.000 | 6 | [train](natural_scenes_train/) · [test](natural_scenes_test/) |
 ---
 
@@ -109,5 +111,5 @@ Cada dataset proviene de fuentes externas con sus propias condiciones de uso, de
 
 ---
 
-*Última actualización: June 2026*  
+*Última actualización: Julio 2026*  
 *Mantenido por la comunidad RNA-UNIV para propósitos educativos y de investigación.*

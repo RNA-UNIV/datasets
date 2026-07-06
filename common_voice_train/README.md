@@ -129,6 +129,17 @@ Mozilla Foundation garantiza que no se almacenan datos sensibles vinculados a lo
 
 Ejemplo de carga:
 
+Acceso con el DataLoader de la biblioteca `rna` (Recomendado):
+```python
+# Instalar la biblioteca si no está disponible:
+# !pip install https://github.com/RNA-UNIV/rna/archive/refs/heads/main.zip
+
+from rna.data.ClassDataLoader import DataLoader
+
+# Cargar audios y etiquetas en memoria
+X, y, clases, _ = DataLoader.load_audio('common_voice_train')
+```
+
 ```python
 from datasets import load_dataset
 

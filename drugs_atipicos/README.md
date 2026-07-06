@@ -85,7 +85,18 @@ Los datos son sintéticos o anonimizados y no representan información médica r
 ## 7. 🔗 Acceso y Uso
 El dataset está disponible bajo licencia CC0: Dominio Público, lo que permite su uso libre para fines educativos, de investigación y comerciales sin restricciones.   
 
-### 7.1 📥 Cómo cargarlo en Python:   
+### 7.1 📥 Cómo cargarlo en Python:
+
+Acceso con el DataLoader de la biblioteca `rna` (Recomendado):
+```python
+# Instalar la biblioteca si no está disponible:
+# !pip install https://github.com/RNA-UNIV/rna/archive/refs/heads/main.zip
+
+from rna.data.ClassDataLoader import DataLoader
+
+# Cargar el dataset como DataFrame de Pandas
+df = DataLoader.load_dataframe('drugs_atipicos')
+```   
 
 Acceso vía GitHub:
 ```python
