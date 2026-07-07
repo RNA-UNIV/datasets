@@ -8,10 +8,14 @@
     "tareas": [
         "clasificacion"
     ],
-    "clases": 2,
-    "clases_nombres": [
-        "0",
-        "1"
+    "targets": [
+        {
+            "variable": "Survived",
+            "tipo": "clasificacion",
+            "clases": 2,
+            "clases_nombres": ["no_sobrevive", "sobrevive"],
+            "descripcion": "Indicador de supervivencia del pasajero."
+        }
     ],
     "faltantes": "Si",
     "atributos": {

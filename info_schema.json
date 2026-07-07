@@ -24,10 +24,6 @@
             "tipo": "entero",
             "descripcion": "Cantidad total de instancias o archivos en el dataset."
         },
-        "clases": {
-            "tipo": "entero | null",
-            "descripcion": "Cantidad de clases para tareas de clasificación. null si no aplica."
-        },
         "faltantes": {
             "tipo": "string",
             "descripcion": "Indica si el dataset contiene valores faltantes.",
@@ -65,10 +61,45 @@
                 "precio": "Valor continuo que representa el precio de venta en dólares."
             }
         },
-        "clases_nombres": {
-            "tipo": "array de strings | null",
-            "descripcion": "Lista de nombres de clases para datasets de clasificación. null si no aplica.",
-            "ejemplo": ["buildings", "forest", "glacier", "mountain", "sea", "street"]
+        "targets": {
+            "tipo": "array de objetos",
+            "descripcion": "Lista de variables objetivo del dataset. Cada elemento describe un posible target para entrenar modelos.",
+            "campos_internos": {
+                "variable": {
+                    "tipo": "string",
+                    "descripcion": "Nombre de la columna/atributo que actúa como variable objetivo. Para datasets organizados en carpetas, usar 'carpeta'."
+                },
+                "tipo": {
+                    "tipo": "string",
+                    "descripcion": "Tipo de tarea ML para esta variable.",
+                    "opciones": ["clasificacion", "regresion"]
+                },
+                "clases": {
+                    "tipo": "entero | null",
+                    "descripcion": "Cantidad de clases (solo para clasificacion). null para regresión."
+                },
+                "clases_nombres": {
+                    "tipo": "array de strings | null",
+                    "descripcion": "Nombres de las clases. null si no aplica."
+                },
+                "unidad": {
+                    "tipo": "string | null",
+                    "descripcion": "Unidad de medida (solo para regresión). Ej: 'USD', 'MW'."
+                },
+                "descripcion": {
+                    "tipo": "string | null",
+                    "descripcion": "Breve descripción del target."
+                }
+            },
+            "ejemplo": [
+                {
+                    "variable": "class",
+                    "tipo": "clasificacion",
+                    "clases": 3,
+                    "clases_nombres": ["Iris-setosa", "Iris-versicolor", "Iris-virginica"],
+                    "descripcion": "Especie de flor Iris."
+                }
+            ]
         },
         "resolucion": {
             "tipo": "string | null",

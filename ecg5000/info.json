@@ -1,13 +1,24 @@
 {
     "nombre": "Electro-cardiogramas",
-    "descripcion": "Este conjunto de datos contiene las lecturas de electro-cardiogramas (ECG) de los pacientes. Cada fila corresponde a un ECG completo de un paciente y está compuesto por 140 puntos de datos (lecturas). Nota: no hay nombres de columnas",
+    "descripcion": "Conjunto de datos con lecturas de electro-cardiogramas (ECG) de pacientes. Cada fila corresponde a un ECG completo con 140 puntos de datos.",
     "autor": "Devavrata Tripathy",
     "url": "https://www.kaggle.com/datasets/devavratatripathy/ecg-dataset",
     "muestras": 4998,
-    "clases": 2,
+    "tipo": "serie_temporal",
+    "tareas": ["clasificacion", "deteccion_anomalias"],
+    "targets": [
+        {
+            "variable": "clase",
+            "tipo": "clasificacion",
+            "clases": 2,
+            "clases_nombres": ["normal", "anormal"],
+            "descripcion": "Tipo de ECG: normal o anormal."
+        }
+    ],
     "faltantes": "No",
     "atributos": {
-        "columna 1 a 140": "Secuencia de puntos de datos del ECG",
-        "columna 141": "ECG Normal (1) o Anormal (0)"
-    }
+        "columna_1_a_140": "Secuencia de puntos de datos del ECG.",
+        "clase": "Etiqueta: 1 = ECG Normal, 0 = ECG Anormal."
+    },
+    "formato_archivo": "csv"
 }

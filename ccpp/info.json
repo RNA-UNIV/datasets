@@ -8,8 +8,14 @@
     "tareas": [
         "regresion"
     ],
-    "clases": null,
-    "clases_nombres": null,
+    "targets": [
+        {
+            "variable": "PE",
+            "tipo": "regresion",
+            "unidad": "MW",
+            "descripcion": "Producción neta de energía eléctrica horaria."
+        }
+    ],
     "faltantes": "No",
     "atributos": {
         "AT": "Temperatura ambiente en grados Celsius (rango: 1.81 – 37.11 °C)",

@@ -1,31 +1,21 @@
 {
     "nombre": "Espectrogramas de Dataset Spoken Words: Common Voice 7.0",
-    "descripcion": "Espectrogramas de audio en formato de imagen PNG y escala de grises, generados a partir del subconjunto de prueba de Mozilla Common Voice 7.0 diseñado para tareas de reconocimiento de palabras aisladas (Keyword Spotting). Contiene imágenes correspondientes a una única palabra pronunciada por voluntarios, con un vocabulario de 14 clases entre dígitos y comandos.",
+    "descripcion": "Espectrogramas de audio en formato de imagen PNG y escala de grises, generados a partir del subconjunto de prueba de Mozilla Common Voice 7.0 diseñado para tareas de reconocimiento de palabras aisladas (Keyword Spotting).",
     "autor": "Mozilla Foundation",
     "url": "https://mozilladatacollective.com/datasets",
     "muestras": 6349,
-    "clases": 14,
-    "clases_nombres": [
-        "zero",
-        "one",
-        "two",
-        "three",
-        "four",
-        "five",
-        "six",
-        "seven",
-        "eight",
-        "nine",
-        "yes",
-        "no",
-        "hey",
-        "firefox"
+    "tipo": "imagen",
+    "tareas": ["clasificacion"],
+    "targets": [
+        {
+            "variable": "carpeta",
+            "tipo": "clasificacion",
+            "clases": 14,
+            "clases_nombres": ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "yes", "no", "hey", "firefox"],
+            "descripcion": "Palabra pronunciada en la grabación original."
+        }
     ],
     "faltantes": "No",
-    "tipo": "imagen",
-    "tareas": [
-        "clasificacion"
-    ],
     "resolucion": "65x64",
     "formato_archivo": "png",
     "atributos": null

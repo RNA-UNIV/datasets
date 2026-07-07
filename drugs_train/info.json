@@ -9,13 +9,14 @@
         "clasificacion",
         "regresion"
     ],
-    "clases": 5,
-    "clases_nombres": [
-        "drugA",
-        "drugB",
-        "drugC",
-        "drugX",
-        "drugY"
+    "targets": [
+        {
+            "variable": "Drug",
+            "tipo": "clasificacion",
+            "clases": 5,
+            "clases_nombres": ["drugA", "drugB", "drugC", "drugX", "drugY"],
+            "descripcion": "Categoría del medicamento recetado."
+        }
     ],
     "faltantes": "No",
     "atributos": {

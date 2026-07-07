@@ -10,15 +10,28 @@
         "regresion",
         "agrupamiento"
     ],
-    "clases": 7,
-    "clases_nombres": [
-        "Insufficient_Weight",
-        "Normal_Weight",
-        "Obesity_Type_I",
-        "Obesity_Type_II",
-        "Obesity_Type_III",
-        "Overweight_Level_I",
-        "Overweight_Level_II"
+    "targets": [
+        {
+            "variable": "NObesity",
+            "tipo": "clasificacion",
+            "clases": 7,
+            "clases_nombres": [
+                "Insufficient_Weight",
+                "Normal_Weight",
+                "Obesity_Type_I",
+                "Obesity_Type_II",
+                "Obesity_Type_III",
+                "Overweight_Level_I",
+                "Overweight_Level_II"
+            ],
+            "descripcion": "Clasificación del nivel de肥胖."
+        },
+        {
+            "variable": "Weight",
+            "tipo": "regresion",
+            "unidad": "kg",
+            "descripcion": "Peso de la persona."
+        }
     ],
     "faltantes": "No",
     "atributos": {

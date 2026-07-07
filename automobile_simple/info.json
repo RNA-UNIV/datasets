@@ -9,8 +9,25 @@
         "clasificacion",
         "regresion"
     ],
-    "clases": 186,
-    "clases_nombres": null,
+    "targets": [
+        {
+            "variable": "make",
+            "tipo": "clasificacion",
+            "clases": 22,
+            "descripcion": "Fabricante del automóvil."
+        },
+        {
+            "variable": "price",
+            "tipo": "regresion",
+            "unidad": "USD",
+            "descripcion": "Precio de venta del vehículo."
+        },
+        {
+            "variable": "eco-rating",
+            "tipo": "regresion",
+            "descripcion": "Puntuación compuesta de eficiencia ambiental."
+        }
+    ],
     "faltantes": "Si",
     "atributos": {
         "make": "Fabricante del automóvil.",

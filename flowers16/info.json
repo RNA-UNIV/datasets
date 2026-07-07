@@ -8,24 +8,31 @@
     "tareas": [
         "clasificacion"
     ],
-    "clases": 16,
-    "clases_nombres": [
-        "astilbe",
-        "bellflower",
-        "black_eyed_susan",
-        "calendula",
-        "california_poppy",
-        "carnation",
-        "common_daisy",
-        "coreopsis",
-        "daffodil",
-        "dandelion",
-        "iris",
-        "magnolia",
-        "rose",
-        "sunflower",
-        "tulip",
-        "water_lily"
+    "targets": [
+        {
+            "variable": "carpeta",
+            "tipo": "clasificacion",
+            "clases": 16,
+            "clases_nombres": [
+                "astilbe",
+                "bellflower",
+                "black_eyed_susan",
+                "calendula",
+                "california_poppy",
+                "carnation",
+                "common_daisy",
+                "coreopsis",
+                "daffodil",
+                "dandelion",
+                "iris",
+                "magnolia",
+                "rose",
+                "sunflower",
+                "tulip",
+                "water_lily"
+            ],
+            "descripcion": "Especie de flor representada en la imagen."
+        }
     ],
     "faltantes": "No",
     "atributos": {

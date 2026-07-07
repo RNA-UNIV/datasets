@@ -7,10 +7,23 @@
     "tipo": "tabular",
     "tareas": [
         "clasificacion",
-        "regresion"
+        "deteccion_anomalias"
     ],
-    "clases": 2,
-    "clases_nombres": null,
+    "targets": [
+        {
+            "variable": "Class",
+            "tipo": "clasificacion",
+            "clases": 2,
+            "clases_nombres": ["legitima", "fraudulenta"],
+            "descripcion": "Indicador de transacción fraudulenta."
+        },
+        {
+            "variable": "Amount",
+            "tipo": "regresion",
+            "unidad": "EUR",
+            "descripcion": "Monto de la transacción."
+        }
+    ],
     "faltantes": "No",
     "atributos": {
         "Time": "Segundos transcurridos desde la primera transacción del dataset (rango: 0 – 172792 s)",
@@ -23,5 +36,5 @@
         "Class": "Tipo de transacción (0: legítima, 1: fraudulenta)"
     },
     "resolucion": null,
-    "formato_archivo": null
+    "formato_archivo": "csv"
 }

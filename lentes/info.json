@@ -8,11 +8,14 @@
     "tareas": [
         "clasificacion"
     ],
-    "clases": 3,
-    "clases_nombres": [
-        "Joven",
-        "Presbicia",
-        "pre_presb"
+    "targets": [
+        {
+            "variable": "Clase",
+            "tipo": "clasificacion",
+            "clases": 3,
+            "clases_nombres": ["Joven", "Presbicia", "pre_presb"],
+            "descripcion": "Tipo de lentes recomendados."
+        }
     ],
     "faltantes": "No",
     "atributos": {

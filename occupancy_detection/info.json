@@ -8,8 +8,15 @@
     "tareas": [
         "clasificacion"
     ],
-    "clases": 2,
-    "clases_nombres": null,
+    "targets": [
+        {
+            "variable": "Occupancy",
+            "tipo": "clasificacion",
+            "clases": 2,
+            "clases_nombres": ["no_ocupada", "ocupada"],
+            "descripcion": "Indicador de ocupación de la habitación."
+        }
+    ],
     "faltantes": "No",
     "atributos": {
         "date": "Fecha y hora de la observación en formato año-mes-día hora:minuto:segundo.",

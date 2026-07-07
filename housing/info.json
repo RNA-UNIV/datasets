@@ -8,8 +8,14 @@
     "tareas": [
         "regresion"
     ],
-    "clases": null,
-    "clases_nombres": null,
+    "targets": [
+        {
+            "variable": "MedHouseVal",
+            "tipo": "regresion",
+            "unidad": "USD",
+            "descripcion": "Valor mediano de las viviendas del bloque, truncado en 500,001 USD."
+        }
+    ],
     "faltantes": "Si",
     "atributos": {
         "MedInc": "Ingreso mediano de los hogares del bloque censal (escala ~0.5 – 15, en decenas de miles de USD)",

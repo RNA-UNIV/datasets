@@ -10,14 +10,20 @@
         "regresion",
         "agrupamiento"
     ],
-    "clases": 6,
-    "clases_nombres": [
-        "-1",
-        "-2",
-        "0",
-        "1",
-        "2",
-        "3"
+    "targets": [
+        {
+            "variable": "symboling",
+            "tipo": "clasificacion",
+            "clases": 6,
+            "clases_nombres": ["-2", "-1", "0", "1", "2", "3"],
+            "descripcion": "Grado de riesgo del vehículo para seguros."
+        },
+        {
+            "variable": "price",
+            "tipo": "regresion",
+            "unidad": "USD",
+            "descripcion": "Precio de venta del vehículo."
+        }
     ],
     "faltantes": "Si",
     "atributos": {

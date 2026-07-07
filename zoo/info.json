@@ -9,15 +9,14 @@
         "clasificacion",
         "agrupamiento"
     ],
-    "clases": 7,
-    "clases_nombres": [
-        "Anfibio",
-        "Ave",
-        "Insecto",
-        "Invertebrado",
-        "Mamifero",
-        "Pez",
-        "Reptil"
+    "targets": [
+        {
+            "variable": "Clase",
+            "tipo": "clasificacion",
+            "clases": 7,
+            "clases_nombres": ["Anfibio", "Ave", "Insecto", "Invertebrado", "Mamifero", "Pez", "Reptil"],
+            "descripcion": "Categoría taxonómica del animal."
+        }
     ],
     "faltantes": "No",
     "atributos": {

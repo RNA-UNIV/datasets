@@ -8,11 +8,14 @@
     "tareas": [
         "clasificacion"
     ],
-    "clases": 3,
-    "clases_nombres": [
-        "B",
-        "L",
-        "R"
+    "targets": [
+        {
+            "variable": "ClassName",
+            "tipo": "clasificacion",
+            "clases": 3,
+            "clases_nombres": ["B", "L", "R"],
+            "descripcion": "Resultado del equilibrio de la balanza."
+        }
     ],
     "faltantes": "No",
     "atributos": {

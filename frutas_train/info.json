@@ -9,10 +9,14 @@
         "clasificacion",
         "regresion"
     ],
-    "clases": 2,
-    "clases_nombres": [
-        "Melon",
-        "Naranja"
+    "targets": [
+        {
+            "variable": "Clase",
+            "tipo": "clasificacion",
+            "clases": 2,
+            "clases_nombres": ["Melon", "Naranja"],
+            "descripcion": "Tipo de fruta."
+        }
     ],
     "faltantes": "No",
     "atributos": {

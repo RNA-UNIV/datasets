@@ -1,0 +1,45 @@
+{
+    "nombre": "Colores RGB 16",
+    "descripcion": "Dataset sintético de colores definidos por sus componentes RGB, clasificados en 16 categorías (tonos puros, variantes claras/oscuras y acromáticos) generadas a partir de regiones definidas en el espacio HSV.",
+    "autor": "RNA-UNIV",
+    "url": "https://github.com/rna-univ/datasets/tree/main/colores_rgb_16",
+    "muestras": 1200,
+    "tipo": "tabular",
+    "tareas": [
+        "clasificacion"
+    ],
+    "targets": [
+        {
+            "variable": "Color",
+            "tipo": "clasificacion",
+            "clases": 16,
+            "clases_nombres": [
+                "Rojo",
+                "Rojo_oscuro",
+                "Naranja",
+                "Amarillo",
+                "Verde",
+                "Verde_oscuro",
+                "Verde_claro",
+                "Azul",
+                "Azul_oscuro",
+                "Azul_claro",
+                "Violeta",
+                "Rosa",
+                "Marron",
+                "Gris",
+                "Blanco",
+                "Negro"
+            ],
+            "descripcion": "Categoría de color asignada según la región HSV de origen de la muestra."
+        }
+    ],
+    "faltantes": "No",
+    "atributos": {
+        "R": "Componente rojo del color (0-255).",
+        "G": "Componente verde del color (0-255).",
+        "B": "Componente azul del color (0-255)."
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
+}

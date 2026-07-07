@@ -8,10 +8,14 @@
     "tareas": [
         "clasificacion"
     ],
-    "clases": 2,
-    "clases_nombres": [
-        "Mine",
-        "Rock"
+    "targets": [
+        {
+            "variable": "class",
+            "tipo": "clasificacion",
+            "clases": 2,
+            "clases_nombres": ["Mine", "Rock"],
+            "descripcion": "Tipo de objeto que refleja la señal de sonar."
+        }
     ],
     "faltantes": "No",
     "atributos": {

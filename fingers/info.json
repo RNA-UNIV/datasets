@@ -4,11 +4,18 @@
     "autor": "Pavel Koryakin",
     "url": "https://www.kaggle.com/datasets/koryakinp/fingers",
     "muestras": 21600,
-    "clases": 6,
-    "clases_nombres": ["0", "1", "2", "3", "4", "5"],
-    "faltantes": "No",
     "tipo": "imagen",
     "tareas": ["clasificacion"],
+    "targets": [
+        {
+            "variable": "carpeta",
+            "tipo": "clasificacion",
+            "clases": 6,
+            "clases_nombres": ["0", "1", "2", "3", "4", "5"],
+            "descripcion": "Número de dedos mostrados en la imagen."
+        }
+    ],
+    "faltantes": "No",
     "resolucion": "150x150",
     "formato_archivo": "jpg",
     "atributos": null

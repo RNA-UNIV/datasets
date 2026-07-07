@@ -5,15 +5,24 @@
     "url": "https://www.kaggle.com/datasets/mathsian/three-hawk-species",
     "muestras": 893,
     "tipo": "tabular",
-    "tareas": [
-        "clasificacion"
+    "tareas": ["clasificacion", "agrupamiento"],
+    "targets": [
+        {
+            "variable": "Especie",
+            "tipo": "clasificacion",
+            "clases": 3,
+            "clases_nombres": ["Red-tailed", "Broad-winged", "Sharp-shinned"],
+            "descripcion": "Especie de halcón."
+        }
     ],
-    "clases": 0,
-    "clases_nombres": null,
     "faltantes": "No",
     "atributos": {
-        "A�o;Especie;Ala;Peso;Cola;Hallux": "Atributo A�o;Especie;Ala;Peso;Cola;Hallux"
+        "Ao": "Edad del halcón en días.",
+        "Especie": "Especie de halcón.",
+        "Ala": "Longitud del ala en mm.",
+        "Peso": "Peso del halcón en gramos.",
+        "Cola": "Longitud de la cola en mm.",
+        "Hallux": "Longitud de la garra posterior en mm."
     },
-    "resolucion": null,
     "formato_archivo": "csv"
 }

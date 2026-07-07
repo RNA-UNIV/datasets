@@ -9,11 +9,14 @@
         "clasificacion",
         "agrupamiento"
     ],
-    "clases": 3,
-    "clases_nombres": [
-        "Tipo1",
-        "Tipo2",
-        "Tipo3"
+    "targets": [
+        {
+            "variable": "Clase",
+            "tipo": "clasificacion",
+            "clases": 3,
+            "clases_nombres": ["Tipo1", "Tipo2", "Tipo3"],
+            "descripcion": "Variedad de trigo."
+        }
     ],
     "faltantes": "No",
     "atributos": {

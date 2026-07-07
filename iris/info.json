@@ -9,11 +9,14 @@
         "clasificacion",
         "agrupamiento"
     ],
-    "clases": 3,
-    "clases_nombres": [
-        "Iris-setosa",
-        "Iris-versicolor",
-        "Iris-virginica"
+    "targets": [
+        {
+            "variable": "class",
+            "tipo": "clasificacion",
+            "clases": 3,
+            "clases_nombres": ["Iris-setosa", "Iris-versicolor", "Iris-virginica"],
+            "descripcion": "Especie de flor Iris."
+        }
     ],
     "faltantes": "No",
     "atributos": {

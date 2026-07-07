@@ -8,10 +8,14 @@
     "tareas": [
         "clasificacion"
     ],
-    "clases": 2,
-    "clases_nombres": [
-        "Amarillo",
-        "Rojo"
+    "targets": [
+        {
+            "variable": "Inflado?",
+            "tipo": "clasificacion",
+            "clases": 2,
+            "clases_nombres": ["Amarillo", "Rojo"],
+            "descripcion": "Indica si el globo puede inflarse o no."
+        }
     ],
     "faltantes": "No",
     "atributos": {

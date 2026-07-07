@@ -8,11 +8,14 @@
     "tareas": [
         "clasificacion"
     ],
-    "clases": 3,
-    "clases_nombres": [
-        "1",
-        "2",
-        "3"
+    "targets": [
+        {
+            "variable": "class",
+            "tipo": "clasificacion",
+            "clases": 3,
+            "clases_nombres": ["1", "2", "3"],
+            "descripcion": "Cultivar de origen del vino."
+        }
     ],
     "faltantes": "No",
     "atributos": {

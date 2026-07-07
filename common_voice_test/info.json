@@ -5,28 +5,17 @@
     "url": "https://mozilladatacollective.com/datasets",
     "muestras": 6349,
     "tipo": "audio",
-    "tareas": [
-        "clasificacion"
-    ],
-    "clases": 14,
-    "clases_nombres": [
-        "zero",
-        "one",
-        "two",
-        "three",
-        "four",
-        "five",
-        "six",
-        "seven",
-        "eight",
-        "nine",
-        "yes",
-        "no",
-        "hey",
-        "firefox"
+    "tareas": ["clasificacion"],
+    "targets": [
+        {
+            "variable": "carpeta",
+            "tipo": "clasificacion",
+            "clases": 14,
+            "clases_nombres": ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "yes", "no", "hey", "firefox"],
+            "descripcion": "Palabra pronunciada en la grabación."
+        }
     ],
     "faltantes": "No",
-    "atributos": null,
-    "resolucion": null,
-    "formato_archivo": "ogg"
+    "formato_archivo": "ogg",
+    "atributos": null
 }
