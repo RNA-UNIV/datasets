@@ -123,6 +123,18 @@ ds, clases = DataLoader.load_audio_dataset("nombre_dataset", sample_rate=16000, 
 </tr>
 
 <tr>
+  <td rowspan="2" width="140" valign="top"><b>⚡ <a href="colores_rgb_16/">ccpp</a></b></td>
+  <td colspan="5">Dataset sintético de colores definidos por sus componentes RGB, clasificados en 16 categorías (tonos puros, variantes claras/oscuras y acromáticos) generadas a partir de regiones definidas en el espacio HSV.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Regresión</td>
+  <td><b>Muestras</b><br>1.200</td>
+  <td><b>Clases</b><br>16</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br><a href="colores_rgb_16/">completo</a></td>
+</tr>
+
+<tr>
   <td rowspan="2" width="140" valign="top"><b>💳 <a href="creditcard/">creditcard</a></b></td>
   <td colspan="5">Dataset de transacciones con tarjeta de crédito realizadas por tarjetahabientes europeos en septiembre de 2013. Altamente desbalanceado (0.172% fraudes), con atributos anonimizados mediante PCA. Utilizado para detección de fraude financiero.</td>
 </tr>
@@ -156,6 +168,18 @@ ds, clases = DataLoader.load_audio_dataset("nombre_dataset", sample_rate=16000, 
   <td><b>Clases</b><br>2</td>
   <td><b>Faltantes</b><br>—</td>
   <td><b>Variantes</b><br><a href="ecg5000/">completo</a></td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🫀 <a href="energy_efficiency/">energy_efficiency</a></b></td>
+  <td colspan="5">Este conjunto de datos se utiliza para evaluar la eficiencia energética de edificios residenciales, midiendo la energía de calefacción y refrigeración necesarias según varias características del edificio.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Regresión</td>
+  <td><b>Muestras</b><br>768</td>
+  <td><b>Clases</b><br>-</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br><a href="energy_efficiency/">completo</a></td>
 </tr>
 
 <tr>

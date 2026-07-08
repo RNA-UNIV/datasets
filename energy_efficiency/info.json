@@ -1,0 +1,42 @@
+{
+    "nombre": "Eficiencia Energética en Edificios",
+    "descripcion": "Este conjunto de datos se utiliza para evaluar la eficiencia energética de edificios residenciales, midiendo la energía de calefacción y refrigeración necesarias según varias características del edificio.",
+    "autor": "Angeliki Xifara, Athanasios Tsanas",
+    "url": "https://archive.ics.uci.edu/dataset/242/energy+efficiency",
+    "muestras": 768,
+    "tipo": "tabular",
+    "tareas": [
+        "regresion"
+    ],
+    "targets": [
+        {
+            "variable": "Heating_Load",
+            "tipo": "regresion",
+            "unidad": "kWh/m²",
+            "descripcion": "Carga de calefacción."
+        },
+        {
+            "variable": "Cooling_Load",
+            "tipo": "regresion",
+            "unidad": "kWh/m²",
+            "descripcion": "Carga de refrigeración."
+        }
+    ],
+    "faltantes": "No",
+    "atributos": {
+        "Relative_Compactness": "Relación de superficie compacta",
+        "Surface_Area": "Área de superficie",
+        "Wall_Area": "Área de pared",
+        "Roof_Area": "Área de techo",
+        "Overall_Height": "Altura de edificio",
+        "Orientation": "Orientación",
+        "Glazing_Area": "Área vidriada",
+        "Glazing_Area_Distribution": "Distribución de vidrio",
+        "Heating_Load": "Carga de calefacción",
+        "Cooling_Load": "Carga de refrigeración"
+    },
+    "resolucion": null,
+    "formato_archivo": "csv",
+    "licencia": "CC BY 4.0",
+    "cita": "Tsanas, A. & Xifara, A. (2012). Energy Efficiency [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C51307."
+}
