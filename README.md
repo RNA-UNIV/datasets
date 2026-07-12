@@ -123,7 +123,7 @@ ds, clases = DataLoader.load_audio_dataset("nombre_dataset", sample_rate=16000, 
 </tr>
 
 <tr>
-  <td rowspan="2" width="140" valign="top"><b>⚡ <a href="colores_rgb_16/">ccpp</a></b></td>
+  <td rowspan="2" width="140" valign="top"><b>🎨 <a href="colores_rgb_16/">colores_rgb_16</a></b></td>
   <td colspan="5">Dataset sintético de colores definidos por sus componentes RGB, clasificados en 16 categorías (tonos puros, variantes claras/oscuras y acromáticos) generadas a partir de regiones definidas en el espacio HSV.</td>
 </tr>
 <tr>
@@ -180,6 +180,18 @@ ds, clases = DataLoader.load_audio_dataset("nombre_dataset", sample_rate=16000, 
   <td><b>Clases</b><br>-</td>
   <td><b>Faltantes</b><br>—</td>
   <td><b>Variantes</b><br><a href="energy_efficiency/">completo</a></td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>✋ <a href="fingers_features_test/">fingers_features</a></b></td>
+  <td colspan="5">Versión tabular del dataset de dedos, con características geométricas (área, perímetro, excentricidad, solidez, extensión, razón de ejes) extraídas de la silueta binarizada de cada imagen de mano.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>21.600</td>
+  <td><b>Clases</b><br>6</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br><a href="fingers_features_train/">train</a> · <a href="fingers_features_test/">test</a></td>
 </tr>
 
 <tr>

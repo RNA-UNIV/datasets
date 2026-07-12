@@ -16,6 +16,8 @@
   "colores_rgb_16": ["colores_rgb", "rgb_colors_16", "rgb_colors" ],
   "energy_efficiency": ["eficiencia_energetica"],
   "fingers": ["dedos"],
+  "fingers_features_test": ["fingers_feats_test", "dedos_feats_test"],
+  "fingers_featrures_train": ["fingers_feats_test", "dedos_feats_train"],
   "fingers_test": ["dedos_test"],
   "fingers_train": ["dedos_train"],
   "flowers16": ["flowers", "flores16", "flores"],

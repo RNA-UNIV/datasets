@@ -1,0 +1,30 @@
+{
+    "nombre": "Dedos - Características Geométricas (CSV) - Train",
+    "descripcion": "Versión tabular del dataset 'Conteo de Dedos', obtenida mediante extracción de características geométricas (área, perímetro, excentricidad, solidez, extensión, razón de ejes) a partir de la silueta binarizada de cada imagen de mano. Pensada para demostrar el poder de la extracción de características frente al uso directo de imágenes.",
+    "autor": "Pavel Koryakin (dataset original) / RNA-UNIV (extracción de características)",
+    "url": "https://www.kaggle.com/datasets/koryakinp/fingers",
+    "muestras": 18000,
+    "tipo": "tabular",
+    "tareas": ["clasificacion"],
+    "atributos": {
+        "AreaNorm": "Área de la silueta (incluyendo huecos) normalizada por eje_mayor × eje_menor.",
+        "PerimNorm": "Perímetro de la silueta normalizado por el promedio entre eje_mayor y eje_menor.",
+        "RazonEjes": "Razón eje_menor / eje_mayor de la elipse equivalente a la región.",
+        "Excentricidad": "Excentricidad de la elipse equivalente (0 = círculo, cercano a 1 = elipse muy alargada).",
+        "Solidez": "Razón entre el área de la región y el área de su envolvente convexa (mide irregularidad de contorno).",
+        "Extension": "Razón entre el área de la región y el área del bounding box que la contiene."
+    },
+    "targets": [
+        {
+            "variable": "CantDedos",
+            "tipo": "clasificacion",
+            "clases": 6,
+            "clases_nombres": ["0", "1", "2", "3", "4", "5"],
+            "unidad": null,
+            "descripcion": "Número de dedos mostrados en la imagen de origen (extraído del nombre de archivo)."
+        }
+    ],
+    "faltantes": "No",
+    "resolucion": null,
+    "formato_archivo": "csv"
+}
