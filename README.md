@@ -76,345 +76,842 @@ ds, clases = DataLoader.load_audio_dataset("nombre_dataset", sample_rate=16000, 
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🚗 <a href="automobile/">automobile</a></b></td>
-  <td colspan="5">Especificaciones técnicas detalladas de 205 vehículos de diferentes marcas y modelos, junto con información sobre su evaluación de riesgo de seguros y pérdidas normalizadas.</td>
+  <td colspan="5">Especificaciones técnicas detalladas de vehículos junto con información sobre evaluación de riesgo de seguros y pérdidas normalizadas.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación · Regresión · Agrupamiento</td>
   <td><b>Muestras</b><br>205</td>
   <td><b>Clases</b><br>6</td>
   <td><b>Faltantes</b><br>✅</td>
-  <td><b>Variantes</b><br><a href="automobile/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🚗 <a href="automobile_simple/">automobile_simple</a></b></td>
-  <td colspan="5">Versión simplificada del dataset de automóviles con un subconjunto de atributos originales y variables derivadas (volumen, eco-rating), adaptada con fines educativos.</td>
+  <td colspan="5">Versión simplificada del dataset Automobile con atributos seleccionados y variables derivadas para fines educativos.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación · Regresión</td>
   <td><b>Muestras</b><br>205</td>
   <td><b>Clases</b><br>186</td>
   <td><b>Faltantes</b><br>✅</td>
-  <td><b>Variantes</b><br><a href="automobile_simple/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>⚖️ <a href="balance/">balance</a></b></td>
-  <td colspan="5">El conjunto de datos de Balance Scale fue creado para modelar los resultados de experimentos psicológicos que estudian la percepción del equilibrio.</td>
+  <td colspan="5">Dataset basado en experimentos psicológicos sobre percepción del equilibrio.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>625</td>
   <td><b>Clases</b><br>3</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="balance/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>⚡ <a href="ccpp/">ccpp</a></b></td>
-  <td colspan="5">Dataset de mediciones ambientales horarias recolectadas durante 6 años en una planta de ciclo combinado operando a plena carga, utilizado para predecir la producción neta de energía eléctrica.</td>
+  <td colspan="5">Mediciones ambientales de una planta de ciclo combinado utilizadas para predecir producción eléctrica.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Regresión</td>
   <td><b>Muestras</b><br>9.568</td>
   <td><b>Clases</b><br>—</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="ccpp/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🎨 <a href="colores_rgb_16/">colores_rgb_16</a></b></td>
-  <td colspan="5">Dataset sintético de colores definidos por sus componentes RGB, clasificados en 16 categorías (tonos puros, variantes claras/oscuras y acromáticos) generadas a partir de regiones definidas en el espacio HSV.</td>
+  <td colspan="5">Colores definidos mediante componentes RGB clasificados en 16 categorías.</td>
 </tr>
 <tr>
-  <td><b>Tarea</b><br>Regresión</td>
+  <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>1.200</td>
   <td><b>Clases</b><br>16</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="colores_rgb_16/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>💳 <a href="creditcard/">creditcard</a></b></td>
-  <td colspan="5">Dataset de transacciones con tarjeta de crédito realizadas por tarjetahabientes europeos en septiembre de 2013. Altamente desbalanceado (0.172% fraudes), con atributos anonimizados mediante PCA. Utilizado para detección de fraude financiero.</td>
+  <td colspan="5">Transacciones con tarjeta de crédito utilizadas para detección de fraude financiero.</td>
 </tr>
 <tr>
-  <td><b>Tarea</b><br>Clasificación · Regresión</td>
+  <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>284.807</td>
   <td><b>Clases</b><br>2</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="creditcard/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>💊 <a href="drugs/">drugs</a></b></td>
-  <td colspan="5">Contiene información detallada sobre variables médicas que influyen en la elección de un medicamento específico.</td>
+  <td colspan="5">Información médica utilizada para determinar la elección de medicamentos.</td>
 </tr>
 <tr>
-  <td><b>Tarea</b><br>Clasificación · Regresión</td>
+  <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>200</td>
   <td><b>Clases</b><br>5</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="drugs/">completo</a> · <a href="drugs_train/">train</a> · <a href="drugs_test/">test</a> · <a href="drugs_atipicos/">atípicos</a></td>
+  <td><b>Variantes</b><br>completo<br><small>train (160) · test (40) · atípicos</small></td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🫀 <a href="ecg5000/">ecg5000</a></b></td>
-  <td colspan="5">Series temporales de latidos cardíacos (140 puntos de amplitud) extraídas de un electrocardiograma continuo de un paciente, utilizado para clasificación de ritmos y detección de anomalías.</td>
+  <td colspan="5">Series temporales de electrocardiogramas utilizadas para clasificación de ritmos.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>4.998</td>
   <td><b>Clases</b><br>2</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="ecg5000/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
-  <td rowspan="2" width="140" valign="top"><b>🫀 <a href="energy_efficiency/">energy_efficiency</a></b></td>
-  <td colspan="5">Este conjunto de datos se utiliza para evaluar la eficiencia energética de edificios residenciales, midiendo la energía de calefacción y refrigeración necesarias según varias características del edificio.</td>
+  <td rowspan="2" width="140" valign="top"><b>🏠 <a href="energy_efficiency/">energy_efficiency</a></b></td>
+  <td colspan="5">Características edilicias utilizadas para estimar eficiencia energética.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Regresión</td>
   <td><b>Muestras</b><br>768</td>
-  <td><b>Clases</b><br>-</td>
+  <td><b>Clases</b><br>—</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="energy_efficiency/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
-  <td rowspan="2" width="140" valign="top"><b>✋ <a href="fingers_features_test/">fingers_features</a></b></td>
-  <td colspan="5">Versión tabular del dataset de dedos, con características geométricas (área, perímetro, excentricidad, solidez, extensión, razón de ejes) extraídas de la silueta binarizada de cada imagen de mano.</td>
+  <td rowspan="2" width="140" valign="top"><b>✋ <a href="fingers_features_train/">fingers_features</a></b></td>
+  <td colspan="5">Características geométricas extraídas de imágenes de manos.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>21.600</td>
   <td><b>Clases</b><br>6</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="fingers_features_train/">train</a> · <a href="fingers_features_test/">test</a></td>
+  <td><b>Variantes</b><br><small>train (17.280) · test (4.320)</small></td>
 </tr>
 
 <tr>
-  <td rowspan="2" width="140" valign="top"><b>🍊 <a href="frutas_test/">frutas</a></b></td>
-  <td colspan="5">Conjunto de prueba sintético para clasificar frutas (naranja o melón) basado en diámetro y color.</td>
+  <td rowspan="2" width="140" valign="top"><b>🍊 <a href="frutas_train/">frutas</a></b></td>
+  <td colspan="5">Dataset sintético para clasificación de frutas.</td>
 </tr>
 <tr>
-  <td><b>Tarea</b><br>Clasificación · Regresión</td>
-  <td><b>Muestras</b><br>4</td>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>20</td>
   <td><b>Clases</b><br>2</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="frutas_train/">train</a> · <a href="frutas_test/">test</a></td>
+  <td><b>Variantes</b><br><small>train (16) · test (4)</small></td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🎈 <a href="globos/">globos</a></b></td>
-  <td colspan="5">Adaptación en español del dataset clásico Balloons de la UCI, utilizado para la inducción de reglas sobre si un globo se infla o no.</td>
+  <td colspan="5">Adaptación del dataset Balloons utilizado para inducción de reglas.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>16</td>
   <td><b>Clases</b><br>2</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="globos/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🦅 <a href="hawks/">hawks</a></b></td>
-  <td colspan="5">Medidas morfológicas de tres especies de halcones (cola roja, alas anchas y cola lineada) registradas en estudios de campo.</td>
+  <td colspan="5">Mediciones morfológicas de tres especies de halcones.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>893</td>
-  <td><b>Clases</b><br>—</td>
+  <td><b>Clases</b><br>3</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="hawks/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🏠 <a href="housing/">housing</a></b></td>
-  <td colspan="5">Dataset derivado del Censo de California de 1990 donde cada instancia representa un bloque censal. Contiene atributos demográficos, habitacionales y geográficos para predecir el valor mediano de las viviendas.</td>
+  <td colspan="5">Datos habitacionales y demográficos para predicción del valor de viviendas.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Regresión</td>
   <td><b>Muestras</b><br>20.640</td>
   <td><b>Clases</b><br>—</td>
   <td><b>Faltantes</b><br>✅</td>
-  <td><b>Variantes</b><br><a href="housing/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🌸 <a href="iris/">iris</a></b></td>
-  <td colspan="5">Dataset botánico clásico de Ronald Fisher que contiene mediciones morfológicas de tres especies de flores Iris.</td>
+  <td colspan="5">Mediciones morfológicas de tres especies de flores Iris.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación · Agrupamiento</td>
   <td><b>Muestras</b><br>150</td>
   <td><b>Clases</b><br>3</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="iris/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>👓 <a href="lentes/">lentes</a></b></td>
-  <td colspan="5">Dataset clásico para determinar si un paciente debe usar lentes de contacto duros, blandos o ninguno.</td>
+  <td colspan="5">Dataset clásico para determinar uso de lentes de contacto.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>24</td>
   <td><b>Clases</b><br>3</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="lentes/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>⚕️ <a href="obesity_uci/">obesity_uci</a></b></td>
-  <td colspan="5">Estimación de niveles de obesidad basados en hábitos alimentarios y condición física de personas de México, Perú y Colombia.</td>
+  <td colspan="5">Estimación de niveles de obesidad mediante hábitos alimentarios y condición física.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación · Regresión · Agrupamiento</td>
   <td><b>Muestras</b><br>2.111</td>
   <td><b>Clases</b><br>7</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="obesity_uci/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🏢 <a href="occupancy_detection/">occupancy_detection</a></b></td>
-  <td colspan="5">Datos experimentales para clasificación binaria de ocupación de habitaciones. Las mediciones provienen de sensores de temperatura, humedad, luz y CO2, con etiquetas de ocupación obtenidas de fotografías con marca de tiempo tomadas cada minuto.</td>
+  <td colspan="5">Sensores ambientales para clasificación de ocupación de habitaciones.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>9.752</td>
   <td><b>Clases</b><br>2</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="occupancy_detection/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🌾 <a href="semillas/">semillas</a></b></td>
-  <td colspan="5">Mediciones geométricas de granos de trigo pertenecientes a tres variedades distintas (Kama, Rosa y Canadian) obtenidas mediante rayos X.</td>
+  <td colspan="5">Mediciones geométricas de granos de trigo pertenecientes a tres variedades.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación · Agrupamiento</td>
   <td><b>Muestras</b><br>210</td>
   <td><b>Clases</b><br>3</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="semillas/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🔊 <a href="sonar/">sonar</a></b></td>
-  <td colspan="5">Este conjunto de datos se utiliza para la clasificación de señales de sonar que rebotan en diferentes objetos. El objetivo es distinguir entre señales rebotadas en una mina (metal) y señales rebotadas en una roca. Los datos son ideales para la evaluación de algoritmos de clasificación en problemas de detección y reconocimiento de patrones.</td>
+  <td colspan="5">Señales de sonar para distinguir rocas y minas.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>208</td>
   <td><b>Clases</b><br>2</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="sonar/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🚢 <a href="titanic/">titanic</a></b></td>
-  <td colspan="5">Datos históricos de pasajeros del RMS Titanic para predecir la supervivencia basada en variables demográficas y de viaje.</td>
+  <td colspan="5">Información histórica de pasajeros del Titanic para predicción de supervivencia.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>891</td>
   <td><b>Clases</b><br>2</td>
   <td><b>Faltantes</b><br>✅</td>
-  <td><b>Variantes</b><br><a href="titanic/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🍷 <a href="wine/">wine</a></b></td>
-  <td colspan="5">Dataset de análisis químicos de vinos producidos en la región del Piamonte, Italia, derivados de tres cultivares distintos. Utilizado para clasificación multiclase mediante 13 atributos quimiométricos.</td>
+  <td colspan="5">Análisis químico de vinos de tres cultivares italianos.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>178</td>
   <td><b>Clases</b><br>3</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="wine/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
   <td rowspan="2" width="140" valign="top"><b>🦁 <a href="zoo/">zoo</a></b></td>
-  <td colspan="5">Clasificación taxonómica de animales basada en características morfológicas, fisiológicas y comportamentales.</td>
+  <td colspan="5">Clasificación taxonómica de animales basada en características morfológicas.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación · Agrupamiento</td>
   <td><b>Muestras</b><br>101</td>
   <td><b>Clases</b><br>7</td>
   <td><b>Faltantes</b><br>—</td>
-  <td><b>Variantes</b><br><a href="zoo/">completo</a></td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 </table>
 
-### 🖼️ Imágenes
+### 📊 Tabulares
 
 <table>
 
 <tr>
-  <td rowspan="2" width="140" valign="top"><b>✋ <a href="fingers/">fingers</a></b></td>
-  <td colspan="4">Imágenes en escala de grises de manos mostrando de 0 a 5 dedos, etiquetadas con el número de dedos y orientación (izquierda/derecha).</td>
+  <td rowspan="2" width="140" valign="top"><b>🚗 <a href="automobile/">automobile</a></b></td>
+  <td colspan="5">Especificaciones técnicas detalladas de vehículos junto con información sobre evaluación de riesgo de seguros y pérdidas normalizadas.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Regresión · Agrupamiento</td>
+  <td><b>Muestras</b><br>205</td>
+  <td><b>Clases</b><br>6</td>
+  <td><b>Faltantes</b><br>✅</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🚗 <a href="automobile_simple/">automobile_simple</a></b></td>
+  <td colspan="5">Versión simplificada del dataset Automobile con atributos seleccionados y variables derivadas para fines educativos.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Regresión</td>
+  <td><b>Muestras</b><br>205</td>
+  <td><b>Clases</b><br>186</td>
+  <td><b>Faltantes</b><br>✅</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>⚖️ <a href="balance/">balance</a></b></td>
+  <td colspan="5">Dataset basado en experimentos psicológicos sobre percepción del equilibrio.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>625</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>⚡ <a href="ccpp/">ccpp</a></b></td>
+  <td colspan="5">Mediciones ambientales de una planta de ciclo combinado utilizadas para predecir producción eléctrica.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Regresión</td>
+  <td><b>Muestras</b><br>9.568</td>
+  <td><b>Clases</b><br>—</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🎨 <a href="colores_rgb_16/">colores_rgb_16</a></b></td>
+  <td colspan="5">Colores definidos mediante componentes RGB clasificados en 16 categorías.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>1.200</td>
+  <td><b>Clases</b><br>16</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>💳 <a href="creditcard/">creditcard</a></b></td>
+  <td colspan="5">Transacciones con tarjeta de crédito utilizadas para detección de fraude financiero.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>284.807</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>💊 <a href="drugs/">drugs</a></b></td>
+  <td colspan="5">Información médica utilizada para determinar la elección de medicamentos.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>200</td>
+  <td><b>Clases</b><br>5</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo<br><small>train (160) · test (40) · atípicos</small></td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🫀 <a href="ecg5000/">ecg5000</a></b></td>
+  <td colspan="5">Series temporales de electrocardiogramas utilizadas para clasificación de ritmos.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>4.998</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🏠 <a href="energy_efficiency/">energy_efficiency</a></b></td>
+  <td colspan="5">Características edilicias utilizadas para estimar eficiencia energética.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Regresión</td>
+  <td><b>Muestras</b><br>768</td>
+  <td><b>Clases</b><br>—</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>✋ <a href="fingers_features_train/">fingers_features</a></b></td>
+  <td colspan="5">Características geométricas extraídas de imágenes de manos.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
   <td><b>Muestras</b><br>21.600</td>
   <td><b>Clases</b><br>6</td>
-  <td><b>Variantes</b><br><a href="fingers/">completo</a> · <a href="fingers_train/">train</a> · <a href="fingers_test/">test</a></td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br><small>train (17.280) · test (4.320)</small></td>
 </tr>
 
 <tr>
-  <td rowspan="2" width="140" valign="top"><b>🌻 <a href="flowers16/">flowers16</a></b></td>
-  <td colspan="4">Imágenes de flores de 256x256 píxeles pertenecientes a 16 especies distintas. Recuperado mediante un mirror del dataset original de Kaggle y curado para unificar la resolución y calidad de todas las clases.</td>
+  <td rowspan="2" width="140" valign="top"><b>🍊 <a href="frutas_train/">frutas</a></b></td>
+  <td colspan="5">Dataset sintético para clasificación de frutas.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
-  <td><b>Muestras</b><br>15.648</td>
-  <td><b>Clases</b><br>16</td>
-  <td><b>Variantes</b><br><a href="flowers16/">completo</a></td>
+  <td><b>Muestras</b><br>20</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br><small>train (16) · test (4)</small></td>
 </tr>
 
 <tr>
-  <td rowspan="2" width="140" valign="top"><b>🏔️ <a href="natural_scenes_test/">natural_scenes</a></b></td>
-  <td colspan="4">Imágenes de escenas naturales y urbanas organizadas en 6 categorías, destinadas a la evaluación de modelos de clasificación. Subconjunto del Intel Scene Classification Challenge (2018).</td>
+  <td rowspan="2" width="140" valign="top"><b>🎈 <a href="globos/">globos</a></b></td>
+  <td colspan="5">Adaptación del dataset Balloons utilizado para inducción de reglas.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
-  <td><b>Muestras</b><br>3.000</td>
-  <td><b>Clases</b><br>6</td>
-  <td><b>Variantes</b><br><a href="natural_scenes_train/">train</a> · <a href="natural_scenes_test/">test</a></td>
+  <td><b>Muestras</b><br>16</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 <tr>
-  <td rowspan="2" width="140" valign="top"><b>🎵 <a href="common_voice_spectrum_test/">common_voice_spectrum</a></b></td>
-  <td colspan="4">Espectrogramas de audio en formato de imagen PNG y escala de grises, generados a partir de Mozilla Common Voice 7.0. Diseñado para reconocimiento de palabras aisladas (Keyword Spotting) con un vocabulario de 14 clases entre dígitos y comandos.</td>
+  <td rowspan="2" width="140" valign="top"><b>🦅 <a href="hawks/">hawks</a></b></td>
+  <td colspan="5">Mediciones morfológicas de tres especies de halcones.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
-  <td><b>Muestras</b><br>16.631</td>
-  <td><b>Clases</b><br>14</td>
-  <td><b>Variantes</b><br><a href="common_voice_spectrum_train/">train</a> · <a href="common_voice_spectrum_test/">test</a></td>
+  <td><b>Muestras</b><br>893</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🏠 <a href="housing/">housing</a></b></td>
+  <td colspan="5">Datos habitacionales y demográficos para predicción del valor de viviendas.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Regresión</td>
+  <td><b>Muestras</b><br>20.640</td>
+  <td><b>Clases</b><br>—</td>
+  <td><b>Faltantes</b><br>✅</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🌸 <a href="iris/">iris</a></b></td>
+  <td colspan="5">Mediciones morfológicas de tres especies de flores Iris.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Agrupamiento</td>
+  <td><b>Muestras</b><br>150</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>👓 <a href="lentes/">lentes</a></b></td>
+  <td colspan="5">Dataset clásico para determinar uso de lentes de contacto.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>24</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>⚕️ <a href="obesity_uci/">obesity_uci</a></b></td>
+  <td colspan="5">Estimación de niveles de obesidad mediante hábitos alimentarios y condición física.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Regresión · Agrupamiento</td>
+  <td><b>Muestras</b><br>2.111</td>
+  <td><b>Clases</b><br>7</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🏢 <a href="occupancy_detection/">occupancy_detection</a></b></td>
+  <td colspan="5">Sensores ambientales para clasificación de ocupación de habitaciones.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>9.752</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🌾 <a href="semillas/">semillas</a></b></td>
+  <td colspan="5">Mediciones geométricas de granos de trigo pertenecientes a tres variedades.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Agrupamiento</td>
+  <td><b>Muestras</b><br>210</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🔊 <a href="sonar/">sonar</a></b></td>
+  <td colspan="5">Señales de sonar para distinguir rocas y minas.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>208</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🚢 <a href="titanic/">titanic</a></b></td>
+  <td colspan="5">Información histórica de pasajeros del Titanic para predicción de supervivencia.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>891</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>✅</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🍷 <a href="wine/">wine</a></b></td>
+  <td colspan="5">Análisis químico de vinos de tres cultivares italianos.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>178</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🦁 <a href="zoo/">zoo</a></b></td>
+  <td colspan="5">Clasificación taxonómica de animales basada en características morfológicas.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Agrupamiento</td>
+  <td><b>Muestras</b><br>101</td>
+  <td><b>Clases</b><br>7</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 </table>
 
-### 🔊 Audio
+### 📊 Tabulares
 
 <table>
 
 <tr>
-  <td rowspan="2" width="140" valign="top"><b>🗣️ <a href="common_voice_test/">common_voice</a></b></td>
-  <td colspan="4">Subconjunto derivado de Mozilla Common Voice 7.0 diseñado para tareas de reconocimiento de palabras aisladas (Keyword Spotting). Contiene grabaciones de una única palabra pronunciada por voluntarios, con un vocabulario de 14 clases entre dígitos y comandos.</td>
+  <td rowspan="2" width="140" valign="top"><b>🚗 <a href="automobile/">automobile</a></b></td>
+  <td colspan="5">Especificaciones técnicas detalladas de vehículos junto con información sobre evaluación de riesgo de seguros y pérdidas normalizadas.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Regresión · Agrupamiento</td>
+  <td><b>Muestras</b><br>205</td>
+  <td><b>Clases</b><br>6</td>
+  <td><b>Faltantes</b><br>✅</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🚗 <a href="automobile_simple/">automobile_simple</a></b></td>
+  <td colspan="5">Versión simplificada del dataset Automobile con atributos seleccionados y variables derivadas para fines educativos.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Regresión</td>
+  <td><b>Muestras</b><br>205</td>
+  <td><b>Clases</b><br>186</td>
+  <td><b>Faltantes</b><br>✅</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>⚖️ <a href="balance/">balance</a></b></td>
+  <td colspan="5">Dataset basado en experimentos psicológicos sobre percepción del equilibrio.</td>
 </tr>
 <tr>
   <td><b>Tarea</b><br>Clasificación</td>
-  <td><b>Muestras</b><br>16.631</td>
-  <td><b>Clases</b><br>14</td>
-  <td><b>Variantes</b><br><a href="common_voice_train/">train</a> · <a href="common_voice_test/">test</a></td>
+  <td><b>Muestras</b><br>625</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>⚡ <a href="ccpp/">ccpp</a></b></td>
+  <td colspan="5">Mediciones ambientales de una planta de ciclo combinado utilizadas para predecir producción eléctrica.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Regresión</td>
+  <td><b>Muestras</b><br>9.568</td>
+  <td><b>Clases</b><br>—</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🎨 <a href="colores_rgb_16/">colores_rgb_16</a></b></td>
+  <td colspan="5">Colores definidos mediante componentes RGB clasificados en 16 categorías.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>1.200</td>
+  <td><b>Clases</b><br>16</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>💳 <a href="creditcard/">creditcard</a></b></td>
+  <td colspan="5">Transacciones con tarjeta de crédito utilizadas para detección de fraude financiero.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>284.807</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>💊 <a href="drugs/">drugs</a></b></td>
+  <td colspan="5">Información médica utilizada para determinar la elección de medicamentos.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>200</td>
+  <td><b>Clases</b><br>5</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo<br><small>train (160) · test (40) · atípicos</small></td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🫀 <a href="ecg5000/">ecg5000</a></b></td>
+  <td colspan="5">Series temporales de electrocardiogramas utilizadas para clasificación de ritmos.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>4.998</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🏠 <a href="energy_efficiency/">energy_efficiency</a></b></td>
+  <td colspan="5">Características edilicias utilizadas para estimar eficiencia energética.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Regresión</td>
+  <td><b>Muestras</b><br>768</td>
+  <td><b>Clases</b><br>—</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>✋ <a href="fingers_features_train/">fingers_features</a></b></td>
+  <td colspan="5">Características geométricas extraídas de imágenes de manos.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>21.600</td>
+  <td><b>Clases</b><br>6</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br><small>train (17.280) · test (4.320)</small></td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🍊 <a href="frutas_train/">frutas</a></b></td>
+  <td colspan="5">Dataset sintético para clasificación de frutas.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>20</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br><small>train (16) · test (4)</small></td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🎈 <a href="globos/">globos</a></b></td>
+  <td colspan="5">Adaptación del dataset Balloons utilizado para inducción de reglas.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>16</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🦅 <a href="hawks/">hawks</a></b></td>
+  <td colspan="5">Mediciones morfológicas de tres especies de halcones.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>893</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🏠 <a href="housing/">housing</a></b></td>
+  <td colspan="5">Datos habitacionales y demográficos para predicción del valor de viviendas.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Regresión</td>
+  <td><b>Muestras</b><br>20.640</td>
+  <td><b>Clases</b><br>—</td>
+  <td><b>Faltantes</b><br>✅</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🌸 <a href="iris/">iris</a></b></td>
+  <td colspan="5">Mediciones morfológicas de tres especies de flores Iris.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Agrupamiento</td>
+  <td><b>Muestras</b><br>150</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>👓 <a href="lentes/">lentes</a></b></td>
+  <td colspan="5">Dataset clásico para determinar uso de lentes de contacto.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>24</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>⚕️ <a href="obesity_uci/">obesity_uci</a></b></td>
+  <td colspan="5">Estimación de niveles de obesidad mediante hábitos alimentarios y condición física.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Regresión · Agrupamiento</td>
+  <td><b>Muestras</b><br>2.111</td>
+  <td><b>Clases</b><br>7</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🏢 <a href="occupancy_detection/">occupancy_detection</a></b></td>
+  <td colspan="5">Sensores ambientales para clasificación de ocupación de habitaciones.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>9.752</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🌾 <a href="semillas/">semillas</a></b></td>
+  <td colspan="5">Mediciones geométricas de granos de trigo pertenecientes a tres variedades.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Agrupamiento</td>
+  <td><b>Muestras</b><br>210</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🔊 <a href="sonar/">sonar</a></b></td>
+  <td colspan="5">Señales de sonar para distinguir rocas y minas.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>208</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🚢 <a href="titanic/">titanic</a></b></td>
+  <td colspan="5">Información histórica de pasajeros del Titanic para predicción de supervivencia.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>891</td>
+  <td><b>Clases</b><br>2</td>
+  <td><b>Faltantes</b><br>✅</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🍷 <a href="wine/">wine</a></b></td>
+  <td colspan="5">Análisis químico de vinos de tres cultivares italianos.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación</td>
+  <td><b>Muestras</b><br>178</td>
+  <td><b>Clases</b><br>3</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🦁 <a href="zoo/">zoo</a></b></td>
+  <td colspan="5">Clasificación taxonómica de animales basada en características morfológicas.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Clasificación · Agrupamiento</td>
+  <td><b>Muestras</b><br>101</td>
+  <td><b>Clases</b><br>7</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
 </tr>
 
 </table>

@@ -1,0 +1,41 @@
+{
+    "nombre": "Reconocimiento de Dígitos Manuscritos (8x8) - Test",
+    "descripcion": "Imágenes de dígitos manuscritos representadas mediante imágenes de 8×8 píxeles en escala de grises, utilizadas para tareas de clasificación multiclase.",
+    "autor": "E. Alpaydin, C. Kaynak",
+    "url": "https://archive.ics.uci.edu/dataset/80/optical+recognition+of+handwritten+digits",
+    "muestras": 1797,
+    "tipo": "imagen",
+    "tareas": [
+        "clasificacion"
+    ],
+    "targets": [
+        {
+            "variable": "target",
+            "tipo": "clasificacion",
+            "clases": 10,
+            "clases_nombres": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "descripcion": "Dígito manuscrito representado en la imagen."
+        }
+    ],
+    "faltantes": "No",
+    "atributos": {
+        "pixel_0": "Intensidad del píxel 0.",
+        "pixel_1": "Intensidad del píxel 1.",
+        "pixel_2": "Intensidad del píxel 2.",
+        "...": "Cada uno de los 64 atributos representa la intensidad de un píxel de la imagen.",
+        "pixel_63": "Intensidad del último píxel."
+    },
+    "resolucion": "8x8",
+    "formato_archivo": "csv"
+}
