@@ -1,0 +1,40 @@
+{
+    "nombre": "Clima de Jena (2009-2016) - Preprocesado Horario",
+    "descripcion": "Versión preprocesada del dataset Jena Climate. Contiene observaciones meteorológicas remuestreadas a una frecuencia de una hora, con valores faltantes corregidos mediante interpolación y registros preparados para tareas de aprendizaje automático.",
+    "autor": "Max Planck Institute for Biogeochemistry (preprocesado: RNA-UNIV)",
+    "url": "https://www.kaggle.com/datasets/mnassrib/jena-climate",
+    "muestras": 70224,
+    "tipo": "serie_temporal",
+    "tareas": [
+        "regresion",
+        "deteccion_anomalias"
+    ],
+    "targets": [
+        {
+            "variable": "T (degC)",
+            "tipo": "regresion",
+            "unidad": "°C",
+            "descripcion": "Temperatura del aire en grados Celsius."
+        }
+    ],
+    "faltantes": "No",
+    "atributos": {
+        "Date Time": "Fecha y hora de la observación (frecuencia horaria).",
+        "p (mbar)": "Presión atmosférica.",
+        "T (degC)": "Temperatura del aire.",
+        "Tpot (K)": "Temperatura potencial.",
+        "Tdew (degC)": "Temperatura del punto de rocío.",
+        "rh (%)": "Humedad relativa.",
+        "VPmax (mbar)": "Presión máxima de vapor.",
+        "VPact (mbar)": "Presión actual de vapor.",
+        "VPdef (mbar)": "Déficit de presión de vapor.",
+        "sh (g/kg)": "Humedad específica.",
+        "H2OC (mmol/mol)": "Concentración de vapor de agua.",
+        "rho (g/m³)": "Densidad del aire.",
+        "wv (m/s)": "Velocidad del viento.",
+        "max. wv (m/s)": "Velocidad máxima del viento.",
+        "wd (deg)": "Dirección del viento."
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
+}

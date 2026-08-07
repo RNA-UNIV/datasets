@@ -819,6 +819,30 @@ ds, clases = DataLoader.load_audio_dataset("nombre_dataset", sample_rate=16000, 
 </tr>
 
 <tr>
+  <td rowspan="2" width="140" valign="top"><b>🌦️ <a href="jena_climate/">jena_climate_2009_2016</a></b></td>
+  <td colspan="5">Registros meteorológicos obtenidos entre 2009 y 2016 por la estación del Instituto Max Planck de Biogeoquímica en Jena, Alemania, con mediciones aproximadamente cada 10 minutos.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Regresión · Detección de anomalías</td>
+  <td><b>Muestras</b><br>420551</td>
+  <td><b>Clases</b><br>—</td>
+  <td><b>Faltantes</b><br>✅</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
+  <td rowspan="2" width="140" valign="top"><b>🌦️ <a href="jena_climate_2009_2016_preprocess/">jena_climate_2009_2016_hourly</a></b></td>
+  <td colspan="5">Versión preprocesada del dataset Jena Climate con frecuencia horaria uniforme, valores faltantes corregidos y registros preparados para aprendizaje automático.</td>
+</tr>
+<tr>
+  <td><b>Tarea</b><br>Regresión · Detección de anomalías</td>
+  <td><b>Muestras</b><br>70092</td>
+  <td><b>Clases</b><br>—</td>
+  <td><b>Faltantes</b><br>—</td>
+  <td><b>Variantes</b><br>completo</td>
+</tr>
+
+<tr>
   <td rowspan="2" width="140" valign="top"><b>👓 <a href="lentes/">lentes</a></b></td>
   <td colspan="5">Dataset clásico para determinar uso de lentes de contacto.</td>
 </tr>

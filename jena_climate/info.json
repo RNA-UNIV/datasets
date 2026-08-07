@@ -1,0 +1,40 @@
+{
+    "nombre": "Clima de Jena (2009-2016)",
+    "descripcion": "Serie temporal de variables meteorológicas registradas por la estación meteorológica del Instituto Max Planck de Biogeoquímica en Jena, Alemania, entre 2009 y 2016. Contiene mediciones atmosféricas cada 10 minutos y es ampliamente utilizado para tareas de predicción de series temporales.",
+    "autor": "Max Planck Institute for Biogeochemistry",
+    "url": "https://www.kaggle.com/datasets/mnassrib/jena-climate",
+    "muestras": 420551,
+    "tipo": "serie_temporal",
+    "tareas": [
+        "regresion",
+        "deteccion_anomalias"
+    ],
+    "targets": [
+        {
+            "variable": "T (degC)",
+            "tipo": "regresion",
+            "unidad": "°C",
+            "descripcion": "Temperatura del aire en grados Celsius. Es la variable objetivo más utilizada para predicción."
+        }
+    ],
+    "faltantes": "Si",
+    "atributos": {
+        "Date Time": "Fecha y hora de la medición.",
+        "p (mbar)": "Presión atmosférica en milibares.",
+        "T (degC)": "Temperatura del aire en grados Celsius.",
+        "Tpot (K)": "Temperatura potencial en Kelvin.",
+        "Tdew (degC)": "Temperatura del punto de rocío.",
+        "rh (%)": "Humedad relativa.",
+        "VPmax (mbar)": "Presión máxima de vapor.",
+        "VPact (mbar)": "Presión actual de vapor.",
+        "VPdef (mbar)": "Déficit de presión de vapor.",
+        "sh (g/kg)": "Humedad específica.",
+        "H2OC (mmol/mol)": "Concentración de vapor de agua.",
+        "rho (g/m³)": "Densidad del aire.",
+        "wv (m/s)": "Velocidad del viento.",
+        "max. wv (m/s)": "Velocidad máxima del viento.",
+        "wd (deg)": "Dirección del viento en grados."
+    },
+    "resolucion": null,
+    "formato_archivo": "csv"
+}

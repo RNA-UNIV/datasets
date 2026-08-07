@@ -27,6 +27,8 @@
   "hawks": ["halcones"],
   "housing": ["ca_housing", "california_housing"],
   "iris": ["lirios"],
+  "jena_climate": ["weather", "clima", "jena_climate", "jena_clima"],
+  "jena_climate_preprocessed": ["weather_preprocessed", "clima_preprocesado", "jena_clima_preprocesado", "jena_clima_horario", "weather_hourly","jena_climate_hourly"],
   "lentes": ["lenses"],
   "natural_scenes_test": ["escenas_naturales_test"],
   "natural_scenes_train": ["escenas_naturales_train"],
