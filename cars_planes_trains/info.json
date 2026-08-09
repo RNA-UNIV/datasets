@@ -1,0 +1,28 @@
+{
+  "nombre": "Clasificación de Vehículos: Autos, Aviones y Trenes",
+  "descripcion": "Conjunto de imágenes para clasificación multiclase de vehículos, compuesto por tres categorías: automóviles, aviones y trenes. Contiene 400 imágenes por clase, para un total de 1.200 imágenes, con resoluciones variadas.",
+  "autor": "Maciej Gronczynski",
+  "url": "https://www.kaggle.com/datasets/maciejgronczynski/vehicle-classification-dataset",
+  "muestras": 1200,
+  "faltantes": "No",
+  "tipo": "imagen",
+  "tareas": [
+    "clasificacion"
+  ],
+  "atributos": null,
+  "targets": [
+    {
+      "variable": "carpeta",
+      "tipo": "clasificacion",
+      "clases": 3,
+      "clases_nombres": [
+        "car",
+        "plane",
+        "train"
+      ],
+      "descripcion": "Tipo de vehículo representado en la imagen."
+    }
+  ],
+  "resolucion": null,
+  "formato_archivo": null
+}

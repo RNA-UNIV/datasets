@@ -2,6 +2,7 @@
   "automobile": ["automoviles", "autos"],
   "automobile_simple": ["automoviles_simple", "autos_simple"],
   "balance": ["balanza"],
+  "cars_planes_trains": ["autos_aviones_trenes"],
   "ccpp": ["planta_ciclo_combinado", "combined_cycle_power_plant"],
   "common_voice_spectrum_test": ["voice_spectrum_test", "voz_espectro_test"],
   "common_voice_spectrum_train": ["voice_spectrum_train", "voz_espectro_train"],
